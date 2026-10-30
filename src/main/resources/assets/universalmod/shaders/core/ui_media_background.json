@@ -1,0 +1,85 @@
+{
+  "vertex": "universalmod:ui_media_background",
+  "fragment": "universalmod:ui_media_background",
+  "samplers": [],
+  "uniforms": [
+    {
+      "name": "Resolution",
+      "type": "float",
+      "count": 2,
+      "values": [
+        1,
+        1
+      ]
+    },
+    {
+      "name": "Time",
+      "type": "float",
+      "count": 1,
+      "values": [
+        0
+      ]
+    },
+    {
+      "name": "ColorA4",
+      "type": "float",
+      "count": 4,
+      "values": [
+        0.2,
+        0.2,
+        0.4,
+        1
+      ]
+    },
+    {
+      "name": "ColorB4",
+      "type": "float",
+      "count": 4,
+      "values": [
+        0.2,
+        0.2,
+        0.4,
+        1
+      ]
+    },
+    {
+      "name": "ColorC4",
+      "type": "float",
+      "count": 4,
+      "values": [
+        0.2,
+        0.2,
+        0.4,
+        1
+      ]
+    },
+    {
+      "name": "ColorD4",
+      "type": "float",
+      "count": 4,
+      "values": [
+        0.2,
+        0.2,
+        0.4,
+        1
+      ]
+    },
+    {
+      "name": "Energy",
+      "type": "float",
+      "count": 1,
+      "values": [
+        0
+      ]
+    }
+  ],
+  "attributes": [
+    "Position",
+    "Color"
+  ],
+  "blend": {
+    "func": "add",
+    "srcrgb": "srcalpha",
+    "dstrgb": "1-srcalpha"
+  }
+}

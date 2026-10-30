@@ -1,0 +1,1319 @@
+{
+  "common": {
+    "settings": {
+      "Bind": {
+        "name": "Бинд"
+      },
+      "Language": {
+        "name": "Язык",
+        "options": {
+          "English": "Английский",
+          "Russian": "Русский",
+          "Ukrainian": "Украинский"
+        }
+      }
+    }
+  },
+  "categories": {
+    "Render": {
+      "name": "Отрисовка"
+    },
+    "Utils": {
+      "name": "Утилиты"
+    },
+    "Misc": {
+      "name": "Разное"
+    }
+  },
+  "modules": {
+    "Auto Sprint": {
+      "name": "Авто Спринт",
+      "description": "Включает спринт всегда"
+    },
+    "Effect Notifier": {
+      "name": "Уведомитель эфектов",
+      "description": "Показывает иконки эффектов под прицелом"
+    },
+    "Cooldowns In Hotbar": {
+      "name": "Кулдауны в хотбаре",
+      "description": "Отображает кулдауны на предметы в хотбаре"
+    },
+    "Sound Reducer": {
+      "name": "Редуктор звука",
+      "description": "Убирает/Заглушает выбранные звуки",
+      "settings": {
+        "Processing Method": {
+          "name": "Processing Method"
+        },
+        "Sounds": {
+          "name": "Звуки",
+          "options": {
+            "Potion/Experience Throw": "Кидание опыта",
+            "Creeper Explosion": "Взрыв крипера",
+            "TNT Explosion": "Взрыв тнт",
+            "Anvils": "Наковальни",
+            "Bow Shot": "Bow Shot",
+            "Ghast Scream": "Крик гаста",
+            "Skeleton Steps": "Шаги скелета",
+            "Nether Portal": "Адский портал",
+            "Event": "Ивенты",
+            "Wither": "Wither",
+            "Phantoms": "Фантомы",
+            "Trident": "Трезубец",
+            "Totem": "Тотем",
+            "Warden": "Варден",
+            "Sculk Sensor": "Скалковый сенсор"
+          }
+        },
+        "Sound Volume": {
+          "name": "Громкость звука"
+        }
+      }
+    },
+    "BetterChat": {
+      "name": "BetterChat",
+      "description": "Тулзы для чаты",
+      "settings": {
+        "Timestamps": {
+          "name": "Таймстампы"
+        },
+        "Anti Spam": {
+          "name": "Антиспам"
+        },
+        "Show Seconds": {
+          "name": "Показывать секунды"
+        },
+        "24 Hour Clock": {
+          "name": "24х часовой формат"
+        },
+        "Smooth Chat": {
+          "name": "Плавный чат"
+        },
+        "Anti Clear": {
+          "name": "Антиочистка"
+        }
+      }
+    },
+    "ClickGUI": {
+      "name": "ClickGUI",
+      "description": "Хз просто кликгуишка забиндить нада"
+    },
+    "Custom Crosshair": {
+      "name": "Кастомный прицел",
+      "description": "Заменяет ванильный прицел на свой кастомный",
+      "settings": {
+        "Canvas Data": {
+          "name": "Данные холста"
+        },
+        "Edit Crosshair": {
+          "name": "Редактор прицела"
+        },
+        "Display in Third Person": {
+          "name": "Показывать в 3м лице"
+        },
+        "Vanilla Blending": {
+          "name": "Ванильный вид"
+        },
+        "Color": {
+          "name": "Цвет"
+        },
+        "Dynamic Color": {
+          "name": "Динамический цвет"
+        },
+        "Neutral": {
+          "name": "Нейтральные"
+        },
+        "Hostile": {
+          "name": "Враждебные"
+        },
+        "Players": {
+          "name": "Игроки"
+        }
+      }
+    },
+    "Fullbright": {
+      "name": "Фуллбрайт",
+      "description": "Осветляет мир через гамму или динамический локальный свет.",
+      "settings": {
+        "Mode": {
+          "name": "Режим",
+          "options": {
+            "Gamma": "Гамма",
+            "Dynamic": "Динамический"
+          }
+        },
+        "Dynamic Radius": {
+          "name": "Радиус динамического света"
+        },
+        "Dynamic Light": {
+          "name": "Сила динамического света"
+        },
+        "Only In Cave": {
+          "name": "Только в пещере"
+        }
+      }
+    },
+    "Server Helper": {
+      "name": "Сервер Хелпер",
+      "description": "Много утилиток под хв",
+      "settings": {
+        "Enabled": {
+          "name": "Включено"
+        },
+        "Trapka": {
+          "name": "Трапка"
+        },
+        "Explosion Trap": {
+          "name": "Взрывная трапка"
+        },
+        "Stun": {
+          "name": "Стан"
+        },
+        "Remember Stun Zone": {
+          "name": "Запоминать зону стана"
+        },
+        "Fill": {
+          "name": "Заливка"
+        },
+        "Golden Spawners": {
+          "name": "Зсп"
+        },
+        "Golden Spawners Slot Fill": {
+          "name": "Заливка слота с зсп"
+        },
+        "Compass Cooldowns": {
+          "name": "Кулдауны компаса"
+        },
+        "Compass Cooldowns Slot Fill": {
+          "name": "Заливка слота с кулдауном компаса"
+        },
+        "Macros": {
+          "name": "Макросы"
+        },
+        "Outline Color": {
+          "name": "Цвет контура"
+        },
+        "Inside Color": {
+          "name": "Цвет внутри"
+        },
+        "Macro Bind Stun": {
+          "name": "Макрос стана"
+        },
+        "Macro Bind Explosion Trap": {
+          "name": "Макрос Взрыв Трапки"
+        },
+        "Macro Bind Trapka": {
+          "name": "Макрос трапки"
+        },
+        "Macro Bind Snowball": {
+          "name": "Макрос снежка"
+        },
+        "Macro Bind Fire Charge": {
+          "name": "Макрос Взрыв штучки"
+        },
+        "Macro Bind Healing Potion": {
+          "name": "Макрос исцела"
+        },
+        "Macro Bind Splash Healing Potion": {
+          "name": "Макрос взрывного исцела"
+        },
+        "Macro Bind Backpack": {
+          "name": "Макрос рюкзака"
+        },
+        "EndHelper": {
+          "name": "EndHelper"
+        },
+        "End Helper Enabled": {
+          "name": "Включить EndHelper"
+        },
+        "Trajectory": {
+          "name": "Траектория"
+        },
+        "Trajectory Y": {
+          "name": "Высота траектории"
+        },
+        "History": {
+          "name": "История поверхности"
+        },
+        "History Color": {
+          "name": "Цвет истории"
+        },
+        "History Opacity": {
+          "name": "Прозрачность истории"
+        }
+      }
+    },
+    "Shaders Button": {
+      "name": "Shaders Button",
+      "description": "Заменяет ванильные кнопки на кастомные"
+    },
+    "Tape Mouse": {
+      "name": "TapeMouse",
+      "description": "Бьет/использует по кулдауну",
+      "settings": {
+        "Button": {
+          "name": "Кнопка"
+        },
+        "Delay": {
+          "name": "Задержка"
+        }
+      }
+    },
+    "CoinPrice": {
+      "name": "CoinPrice",
+      "description": "Показывает стоимость предметов в коинах"
+    },
+    "Ambience": {
+      "name": "Ambience",
+      "description": "Настройка атмосферы в мире",
+      "settings": {
+        "Mode": {
+          "name": "Режим",
+          "options": {
+            "Day": "День",
+            "Midday": "Полдень",
+            "Night": "Ночь",
+            "Midnight": "Полночь",
+            "Custom": "Кастом"
+          }
+        },
+        "Time": {
+          "name": "Время"
+        },
+        "Weather": {
+          "name": "Погода",
+          "options": {
+            "Sunny": "Ясно",
+            "Rain": "Дождь",
+            "Thunder": "Гроза",
+            "Snow": "Снег"
+          }
+        },
+        "Saturation": {
+          "name": "Насыщенность"
+        },
+        "Custom Fog": {
+          "name": "Кастомный туман"
+        },
+        "Fog Color": {
+          "name": "Цвет тумана"
+        },
+        "Fog Distance": {
+          "name": "Дальность тумана"
+        },
+        "Fog Density": {
+          "name": "Плотность тумана"
+        },
+        "Sky Shader": {
+          "name": "Шейдер на небо"
+        },
+        "Sky Mode": {
+          "name": "Режим неба",
+          "options": {
+            "Aurora": "Аврора",
+            "Северное сияние": "Северное сияние",
+            "Nebula": "Космос",
+            "Cosmic Veil": "Cosmic Veil",
+            "Deep Space": "Deep Space",
+            "Void": "Void",
+            "Plasma": "Plasma"
+          }
+        },
+        "Sky Speed": {
+          "name": "Скорость неба"
+        },
+        "Plasma Scale": {
+          "name": "Масштаб плазмы"
+        },
+        "Plasma Speed": {
+          "name": "Скорость плазмы"
+        },
+        "Stars": {
+          "name": "Звёзды"
+        },
+        "Shader Color": {
+          "name": "Цвет шейдера"
+        },
+        "Wet": {
+          "name": "Мокрые поверхности"
+        },
+        "Wet Reflection Strength": {
+          "name": "Сила отражений"
+        },
+        "Wetness": {
+          "name": "Влажность"
+        },
+        "Wet Quality": {
+          "name": "Качество",
+          "options": {
+            "Low": "Низкое",
+            "Medium": "Среднее",
+            "High": "Высокое"
+          }
+        }
+      }
+    },
+    "Animations": {
+      "name": "Animations",
+      "description": "Анимации разных элементов",
+      "settings": {
+        "Animate": {
+          "name": "Animate"
+        }
+      }
+    },
+    "Aspect Ratio": {
+      "name": "Соотношение сторон",
+      "description": "Меняет разрешение экрана не сьедая качество",
+      "settings": {
+        "Ratio": {
+          "name": "Соотношение"
+        }
+      }
+    },
+    "Block Overlay": {
+      "name": "Оверлей блока",
+      "description": "Добавляет кастомный оверлей на блоки",
+      "settings": {
+        "Outline": {
+          "name": "Контур"
+        },
+        "Line Width": {
+          "name": "Толщина линии"
+        },
+        "Outline Color": {
+          "name": "Цвет контура"
+        },
+        "Fill": {
+          "name": "Заливка"
+        },
+        "Shader": {
+          "name": "Шейдер",
+          "options": {
+            "None": "Нет",
+            "Nebula": "Космос",
+            "Cobweb": "Паутина",
+            "Plasma": "Плазма",
+            "Starfield": "Звезды"
+          }
+        },
+        "Fill Color": {
+          "name": "Цвет заливки"
+        },
+        "Fill Opacity": {
+          "name": "Прозрачность заливки"
+        },
+        "Fill Chroma": {
+          "name": "Хроматическая заливка"
+        },
+        "Fill Saturation": {
+          "name": "Насыщенность заливки"
+        },
+        "Fill Brightness": {
+          "name": "Светлота заливки"
+        },
+        "Fill Speed": {
+          "name": "Скорость заливки"
+        },
+        "Nebula Color": {
+          "name": "Nebula Color"
+        },
+        "Nebula Speed": {
+          "name": "Nebula Speed"
+        },
+        "Cobweb Color": {
+          "name": "Cobweb Color"
+        },
+        "Cobweb Speed": {
+          "name": "Cobweb Speed"
+        },
+        "Plasma Color": {
+          "name": "Plasma Color"
+        },
+        "Plasma Speed": {
+          "name": "Скорость плазмы"
+        },
+        "Starfield Color": {
+          "name": "Starfield Color"
+        },
+        "Starfield Speed": {
+          "name": "Starfield Speed"
+        }
+      }
+    },
+    "Custom HitBox": {
+      "name": "Кастомный хитбокс",
+      "description": "Добавляет полностью настраиваемый хитбокс",
+      "settings": {
+        "Eye Hitbox": {
+          "name": "Хитбокс глаз"
+        },
+        "Eye Color": {
+          "name": "Цвет линии глаз"
+        },
+        "Viewing Line": {
+          "name": "Линия взгляда"
+        },
+        "Viewing Line Color": {
+          "name": "Цвет линии взгляда"
+        },
+        "Players": {
+          "name": "Игроки"
+        },
+        "Players Color": {
+          "name": "Цвет игроков"
+        },
+        "Animals": {
+          "name": "Животные"
+        },
+        "Animals Color": {
+          "name": "Цвет животных"
+        },
+        "Monsters": {
+          "name": "Монстры"
+        },
+        "Monsters Color": {
+          "name": "Цвет монстров"
+        },
+        "Throwables": {
+          "name": "Снаряды"
+        },
+        "Throwables Color": {
+          "name": "Цвет снарядов"
+        },
+        "Drop": {
+          "name": "Дроп"
+        },
+        "Drop Color": {
+          "name": "Цвет дропа"
+        },
+        "Misc": {
+          "name": "Разное"
+        },
+        "Misc Color": {
+          "name": "Цвет прочего"
+        }
+      }
+    },
+    "Custom Donate": {
+      "name": "Кастомный донат",
+      "description": "Фейковый донат в нике табе и скорборде",
+      "settings": {
+        "Prefix": {
+          "name": "Префикс"
+        },
+        "Suffix": {
+          "name": "Суффикс"
+        },
+        "Время": {
+          "name": "Время"
+        },
+        "Дни": {
+          "name": "Дни"
+        }
+      }
+    },
+    "Fog Blur": {
+      "name": "Размытие тумана",
+      "description": "Добавляет блюр на туман",
+      "settings": {
+        "Strength": {
+          "name": "Сила"
+        },
+        "Distance": {
+          "name": "Дистанция"
+        },
+        "Quality": {
+          "name": "Качество",
+          "options": {
+            "Balanced": "Сбалансированно",
+            "Quality": "Качество"
+          }
+        }
+      }
+    },
+    "Health Indicator": {
+      "name": "Индикатор здоровья",
+      "description": "Показывает хпшки над игроками"
+    },
+    "Hit Color": {
+      "name": "Цвет удара",
+      "description": "Меняет цвет удара на кастомный",
+      "settings": {
+        "Hit Color": {
+          "name": "Цвет удара"
+        },
+        "Armor": {
+          "name": "Броня"
+        },
+        "Alpha": {
+          "name": "Альфа"
+        }
+      }
+    },
+    "HUD": {
+      "name": "HUD",
+      "description": "Рисует худ элементы",
+      "settings": {
+        "Elements": {
+          "name": "Элементы",
+          "options": {
+            "Music Player": "Плеер музыки",
+            "Target HUD": "Таргет HUD",
+            "Potions": "Зелья",
+            "Inventory": "Инвентарь",
+            "Notifications": "Уведомления",
+            "Armor": "Броня",
+            "Cooldowns": "Кулдауны",
+            "Keystrokes": "Кейстроки",
+            "TNT Timer": "Таймер динамита",
+            "Lyrics": "Лирика",
+            "Event": "Ивенты",
+            "Bossbar": "Боссбар"
+          }
+        },
+        "Armor Mode": {
+          "name": "Режим брони",
+          "options": {
+            "Panel": "Плашка",
+            "Vanilla": "Ванильный"
+          }
+        },
+        "Armor Side": {
+          "name": "Сторона брони",
+          "options": {
+            "Left": "Слева",
+            "Right": "Справа"
+          }
+        },
+        "Keys": {
+          "name": "Keys"
+        },
+        "Mouse Buttons": {
+          "name": "Mouse Buttons"
+        },
+        "Space": {
+          "name": "Space"
+        },
+        "Keystrokes Opacity": {
+          "name": "Keystrokes Opacity"
+        },
+        "Keystrokes Color": {
+          "name": "Keystrokes Color"
+        },
+        "Keystrokes Pressed Color": {
+          "name": "Keystrokes Pressed Color"
+        },
+        "Keystrokes Letter Color": {
+          "name": "Keystrokes Letter Color"
+        },
+        "Keystrokes Pressed Alpha": {
+          "name": "Keystrokes Pressed Alpha"
+        },
+        "Potions Color": {
+          "name": "Potions Color"
+        },
+        "Cooldowns Color": {
+          "name": "Cooldowns Color"
+        },
+        "Use Custom Bossbar Settings": {
+          "name": "Использовать кастомные настройки боссбара"
+        },
+        "Bossbar Color": {
+          "name": "Цвет боссбара"
+        },
+        "Bossbar Text Color": {
+          "name": "Цвет текста боссбара"
+        }
+      }
+    },
+    "Item Replacer": {
+      "name": "Item Replacer",
+      "description": "Замена обычного меча на кастомный",
+      "settings": {
+        "Item Replacer Model": {
+          "name": "Модель Item Replacer"
+        },
+        "Model": {
+          "name": "Модель"
+        }
+      }
+    },
+    "Motion Blur": {
+      "name": "Размытие движения",
+      "description": "Добавляет плавный моушен блюр",
+      "settings": {
+        "Amount": {
+          "name": "Сила"
+        }
+      }
+    },
+    "Ping Nametags": {
+      "name": "Пинг в неймтегах",
+      "description": "Отображает пинг в нейметгах игроков"
+    },
+    "2D Items": {
+      "name": "2D предметы",
+      "description": "Делает предметы 2дшными"
+    },
+    "Invisible Tags": {
+      "name": "Неймтеги невидимых",
+      "description": "Включает неймтеги для невидимок"
+    },
+    "Predictions": {
+      "name": "Предикты",
+      "description": "Показывает место куда прелитит снаряд",
+      "settings": {
+        "Tracked Items": {
+          "name": "Tracked Items"
+        },
+        "Rainbow Color": {
+          "name": "Rainbow Color"
+        },
+        "Entity Hit Highlight": {
+          "name": "Подсветка попадания в сущность"
+        },
+        "Entity Hit Color": {
+          "name": "Цвет попадания в сущность"
+        },
+        "Potion Areas": {
+          "name": "Зоны зелий"
+        },
+        "Splash Area Color": {
+          "name": "Цвет зоны взрывного зелья"
+        },
+        "Lingering Area Color": {
+          "name": "Цвет зоны туманного зелья"
+        }
+      }
+    },
+    "Fire Glow": {
+      "name": "Свечение огня",
+      "description": "Рисует огонь как в 1.16.5",
+      "settings": {
+        "Custom Color": {
+          "name": "Свой цвет"
+        },
+        "Color": {
+          "name": "Цвет"
+        }
+      }
+    },
+    "Pesik": {
+      "name": "Собака",
+      "description": "Добавляет собачку которая бегает рядом с тобой",
+      "settings": {
+        "Skin": {
+          "name": "Скин",
+          "options": {
+            "Jack Russell": "Джек Рассел",
+            "Dachshund": "Такса"
+          }
+        },
+        "Show Name Tag": {
+          "name": "Показывать неймтег собаки"
+        },
+        "Attack Player": {
+          "name": "Атаковать игрока"
+        },
+        "Name Tag": {
+          "name": "Неймтег"
+        },
+        "Intelligence": {
+          "name": "Интеллект",
+          "options": {
+            "Default": "Дефолт",
+            "Fly": "Муха"
+          }
+        }
+      }
+    },
+    "Custom Scoreboard": {
+      "name": "Кастомный скорборд",
+      "description": "Заменяет ванильный скорборд на перемещаемый и настраиваемый HUD-элемент",
+      "settings": {
+        "Show Numbers": {
+          "name": "Показывать числа"
+        },
+        "Text Shadow": {
+          "name": "Тень текста"
+        },
+        "Scale": {
+          "name": "Масштаб"
+        },
+        "Background": {
+          "name": "Фон",
+          "options": {
+            "HUD": "HUD",
+            "Vanilla": "Ванильный",
+            "Custom": "Кастом",
+            "None": "Нет"
+          }
+        },
+        "Background Color": {
+          "name": "Цвет фона"
+        },
+        "Title Background Color": {
+          "name": "Цвет фона заголовка"
+        },
+        "Corner Radius": {
+          "name": "Скругление"
+        },
+        "Text Colors": {
+          "name": "Цвета текста",
+          "options": {
+            "Vanilla": "Ванильный",
+            "Custom": "Кастом"
+          }
+        },
+        "Title Color": {
+          "name": "Цвет заголовка"
+        },
+        "Line Color": {
+          "name": "Цвет линии"
+        },
+        "Number Color": {
+          "name": "Цвет чисел"
+        }
+      }
+    },
+    "Hands": {
+      "name": "Руки",
+      "description": "Добавляет красивые эфекты на руки",
+      "settings": {
+        "Mode": {
+          "name": "Режим",
+          "options": {
+            "Shader": "Шейдер",
+            "Shader+Outline": "Шейдер и контур",
+            "Outline": "Контур",
+            "Smoke": "Дым"
+          }
+        },
+        "Shader": {
+          "name": "Шейдер",
+          "options": {
+            "Wave": "Волна",
+            "Nebula": "Космос"
+          }
+        },
+        "Color": {
+          "name": "Цвет"
+        },
+        "Wave Speed": {
+          "name": "Скорость волны"
+        },
+        "Wave Scale": {
+          "name": "Масштаб волны"
+        },
+        "Fill": {
+          "name": "Заливка"
+        },
+        "Alpha": {
+          "name": "Альфа"
+        },
+        "Outline Color Mode": {
+          "name": "Режим цвета контура",
+          "options": {
+            "Gradient": "Градиент",
+            "Static": "Статичный"
+          }
+        },
+        "Outline Color": {
+          "name": "Цвет контура"
+        },
+        "Second Color": {
+          "name": "Второй цвет"
+        },
+        "Radius": {
+          "name": "Радиус"
+        },
+        "Glow Strength": {
+          "name": "Сила свечения"
+        },
+        "Outline Width": {
+          "name": "Толщина контура"
+        },
+        "Outline Opacity": {
+          "name": "Прозрачность контура"
+        },
+        "Strength": {
+          "name": "Сила"
+        },
+        "Rise Speed": {
+          "name": "Скорость подъёма"
+        },
+        "Wobble": {
+          "name": "Колебание"
+        },
+        "Length": {
+          "name": "Длина"
+        },
+        "Brightness": {
+          "name": "Яркость"
+        }
+      }
+    },
+    "Swing Animation": {
+      "name": "Анимация удара",
+      "description": "Кастомная анимация удара",
+      "settings": {
+        "Type": {
+          "name": "Тип",
+          "options": {
+            "Chop": "Chop",
+            "Swipe": "Swipe",
+            "Down": "Down",
+            "Smooth": "Smooth",
+            "Smooth 2": "Smooth 2",
+            "Power": "Power",
+            "Feast": "Feast",
+            "Twist": "Twist",
+            "Stab": "Stab",
+            "Helix": "Helix",
+            "Default": "Обычный"
+          }
+        },
+        "Strength": {
+          "name": "Сила"
+        },
+        "Duration": {
+          "name": "Длительность"
+        },
+        "Only Swing": {
+          "name": "Только при взмахе"
+        }
+      }
+    },
+    "View Model": {
+      "name": "ViewModel",
+      "description": "Меняет положение рук по пресету",
+      "settings": {
+        "Main Hand X": {
+          "name": "Main Hand X"
+        },
+        "Main Hand Y": {
+          "name": "Main Hand Y"
+        },
+        "Main Hand Z": {
+          "name": "Main Hand Z"
+        },
+        "Item Size Main Hand": {
+          "name": "Item Size Main Hand"
+        },
+        "Off Hand X": {
+          "name": "Off Hand X"
+        },
+        "Off Hand Y": {
+          "name": "Off Hand Y"
+        },
+        "Off Hand Z": {
+          "name": "Off Hand Z"
+        },
+        "Item Size Off Hand": {
+          "name": "Item Size Off Hand"
+        }
+      }
+    },
+    "Waypoints": {
+      "name": "Метки",
+      "description": "Метки и автометки на ивенты, смерть и сокры",
+      "settings": {
+        "Auto Event WayPoints": {
+          "name": "Автометка на ивент"
+        },
+        "Auto Treasure WayPoints": {
+          "name": "Автометка на сокры"
+        },
+        "Death WayPoint": {
+          "name": "Метка смерти",
+          "description": "Создаёт и показывает метку в месте смерти."
+        }
+      }
+    },
+    "Zoom": {
+      "name": "Зум",
+      "description": "Приблежает камеру по бинду",
+      "settings": {
+        "Zoom Bind": {
+          "name": "Бинд зума"
+        },
+        "Default Zoom": {
+          "name": "Зум по умолчанию"
+        }
+      }
+    },
+    "Totem Counter": {
+      "name": "Счётчик тотемов",
+      "description": "Показывает сколько тотемов сняло игроку"
+    },
+    "Save Kt Leave": {
+      "name": "Save Kt Leave",
+      "description": "Защишает вас от лива во время пвп"
+    },
+    "No Render": {
+      "name": "NoRender",
+      "description": "Отключает рендер выбранных предметов",
+      "settings": {
+        "Elements": {
+          "name": "Элементы",
+          "options": {
+            "Hurt Cam": "Тряска камеры",
+            "Fire": "Огонь",
+            "Particles": "Частицы",
+            "Block Particles": "Частицы блока",
+            "Hit Particles": "Частицы от удара",
+            "Block Overlay": "Оверлей блока",
+            "Plants": "Растения",
+            "Weather": "Погода",
+            "Clouds": "Облака",
+            "Glow": "Свечение",
+            "Fog": "Туман",
+            "Damage": "Урон",
+            "Scoreboard": "Скорборд",
+            "Bossbar": "Боссбар",
+            "Vanilla Effects": "Ванильные эфекты",
+            "Wither Hearts": "Иссушённые сердца",
+            "Totem Animation": "Анимация тотема",
+            "Player Walk": "Ходьба игрока",
+            "Player Swing": "Взмах игрока"
+          }
+        }
+      }
+    },
+    "Free Look": {
+      "name": "FreeLook",
+      "description": "Дает свободный обзор в ф5 при нажатии на бинд",
+      "settings": {
+        "Free Look": {
+          "name": "FreeLook"
+        }
+      }
+    },
+    "Friends": {
+      "name": "Друзья",
+      "description": "Добавляет или удаляет друзей средней кнопкой мыши по игроку"
+    },
+    "Name Protect": {
+      "name": "Защита ника",
+      "description": "Скрывает ваше имя",
+      "settings": {
+        "Name": {
+          "name": "Имя"
+        }
+      }
+    },
+    "ItemScroller": {
+      "name": "Итем скроллер",
+      "description": "Быстрый скролл предметов",
+      "settings": {
+        "Scroll Delay": {
+          "name": "Задержка скролла"
+        }
+      }
+    },
+    "LockSlot": {
+      "name": "LockSlot",
+      "description": "Блокирует выбранные вами слоты от дропа",
+      "settings": {
+        "Slots": {
+          "name": "Slots"
+        }
+      }
+    },
+    "Atmosphere": {
+      "name": "Атмосфера",
+      "description": "Зима, сакура, гроза, осень, солнечный день и кровавая луна с погодой и авторским небом.",
+      "settings": {
+        "Mode": {
+          "name": "Режим",
+          "options": {
+            "Wet": "Влажность",
+            "Winter": "Зима",
+            "Dust": "Пыль",
+            "Ash": "Пепел",
+            "Halloween": "Хэллоуин",
+            "Sakura": "Сакура",
+            "Thunder": "Гроза",
+            "Autumn": "Осень",
+            "Sunday": "Солнечный день",
+            "BloodMoon": "Кровавая луна"
+          }
+        },
+        "Wet Reflection Strength": {
+          "name": "Сила отражений"
+        },
+        "Wetness": {
+          "name": "Влажность"
+        },
+        "Wet Quality": {
+          "name": "Качество",
+          "options": {
+            "Low": "Низкое",
+            "Medium": "Среднее",
+            "High": "Высокое"
+          }
+        },
+        "Интенсивность снега": {
+          "name": "Интенсивность снега"
+        },
+        "Снежинки": {
+          "name": "Снежинки"
+        },
+        "Скорость снега": {
+          "name": "Скорость снега"
+        },
+        "Количество снега": {
+          "name": "Количество снега"
+        },
+        "Длина тумана": {
+          "name": "Длина тумана"
+        },
+        "Density": {
+          "name": "Плотность"
+        },
+        "God Rays": {
+          "name": "Лучи света"
+        },
+        "Scatter Height": {
+          "name": "Высота рассеивания"
+        },
+        "Wind Speed": {
+          "name": "Скорость ветра"
+        },
+        "Particles": {
+          "name": "Частицы"
+        },
+        "Vignette": {
+          "name": "Виньетка"
+        },
+        "Grade": {
+          "name": "Тонировка"
+        },
+        "Haze": {
+          "name": "Дымка"
+        },
+        "Sun Color": {
+          "name": "Цвет солнца"
+        },
+        "Зимние лучи": {
+          "name": "Зимние лучи"
+        },
+        "Sakura Petals": {
+          "name": "Лепестки сакуры"
+        },
+        "Sakura Fall Speed": {
+          "name": "Скорость падения лепестков"
+        },
+        "Sakura Wind": {
+          "name": "Ветер сакуры"
+        },
+        "Sakura Haze": {
+          "name": "Розовая дымка"
+        },
+        "Sakura Bloom": {
+          "name": "Сияние сакуры"
+        },
+        "Sakura Sky Speed": {
+          "name": "Скорость облаков"
+        },
+        "Autumn Leaves": {
+          "name": "Осенние листья"
+        },
+        "Autumn Wind": {
+          "name": "Ветер осени"
+        },
+        "Autumn Rain": {
+          "name": "Осенний дождь"
+        },
+        "Thunder Rain": {
+          "name": "Плотность дождя"
+        },
+        "Thunder Volume": {
+          "name": "Громкость собственного грома"
+        },
+        "Sunday God Rays": {
+          "name": "Солнечные лучи"
+        },
+        "Sunday Ray Strength": {
+          "name": "Сила солнечных лучей"
+        },
+        "BloodMoon Haze": {
+          "name": "Дымка кровавой луны"
+        }
+      }
+    },
+    "World Lyrics": {
+      "name": "Текст песни в мире",
+      "description": "Показывает текущую лирику в мире",
+      "settings": {
+        "Distance": {
+          "name": "Расстояние"
+        },
+        "Vertical Offset": {
+          "name": "Вертикальное смещение"
+        },
+        "Text Size": {
+          "name": "Размер текста"
+        },
+        "Word Spread": {
+          "name": "Разброс слов"
+        },
+        "Transition": {
+          "name": "Переход"
+        },
+        "Motion": {
+          "name": "Движение"
+        },
+        "Respect Walls": {
+          "name": "Учитывать стены"
+        }
+      }
+    }
+  },
+  "theme": {
+    "settings": {
+      "HUD Accent": {
+        "name": "Акцентный цвет HUD"
+      },
+      "ClickGUI Titles": {
+        "name": "Заголовки ClickGUI"
+      },
+      "ClickGUI Accent": {
+        "name": "Акцент ClickGUI"
+      },
+      "ClickGUI Modules": {
+        "name": "Карточки модулей"
+      },
+      "Enabled Module": {
+        "name": "Включен модуль"
+      },
+      "ClickGUI Panel": {
+        "name": "Фон ClickGUI"
+      },
+      "ClickGUI Size": {
+        "name": "Размер ClickGUI"
+      },
+      "HUD Blur": {
+        "name": "Блюр худа"
+      },
+      "HUD Text": {
+        "name": "Текст в худе"
+      },
+      "Language": {
+        "name": "Язык"
+      }
+    }
+  },
+  "ui": {
+    "clickgui.title": "ClickGUI",
+    "clickgui.search": "Поиск...",
+    "clickgui.no_modules": "Нет модулей",
+    "clickgui.select_module": "Выберите модуль",
+    "clickgui.no_settings_hint": "В этом модуле нет настроек, попробуйте открыть другой",
+    "clickgui.theme.title": "Оформление ClickGUI",
+    "hw_events.name": "Ивенты холика",
+    "hw_events.settings_button": "Настройки",
+    "hw_events.filter.all": "Все",
+    "hw_events.filter.solo": "Соло",
+    "hw_events.filter.duo": "Дуо",
+    "hw_events.filter.trio": "Трио",
+    "hw_events.filter.clan": "Клан",
+    "hw_events.anarchies": "Анархии",
+    "hw_events.range.solo": "Соло",
+    "hw_events.range.duo": "Дуо",
+    "hw_events.range.trio": "Трио",
+    "hw_events.range.clan": "Клан",
+    "configs.name": "Конфиги",
+    "current_events.title": "Текущие ивенты",
+    "current_events.empty": "Нет активных ивентов",
+    "event.title": "Ивент",
+    "item_replacer.title": "Модели Item Replacer",
+    "item_replacer.subtitle": "Выберите кастомную модель меча",
+    "crosshair_editor.title": "Кастомный прицел",
+    "crosshair_editor.help": "ЛКМ — рисовать, ПКМ — стирать, СКМ — переключить",
+    "selected.count": "Выбрано: %d",
+    "chat.duplicate": " [%dx]",
+    "scoreboard.days.short": "%dд.",
+    "friends.added": "Добавлен %s в друзья.",
+    "friends.removed": "Удалён %s из друзей.",
+    "clickgui.home": "Главная",
+    "clickgui.editor": "Редактор",
+    "clickgui.none": "Нет",
+    "clickgui.type_text": "Введите текст",
+    "clickgui.action": "Действие",
+    "hw_events.display_count": "Отображать ивенты: %d из %d",
+    "music.no_session": "Нет активного трека",
+    "hud.notification.prefix": "Модуль ",
+    "hud.notification.enabled": " включен.",
+    "hud.notification.disabled": " выключен.",
+    "hud_editor": {
+      "enabled": "Включено",
+      "mode": "Режим",
+      "elements": "Элементы худа",
+      "size": "Размер"
+    },
+    "hud.edit_hint": "ПКМ для редактирования",
+    "pvp_leave.exit": "Выйти",
+    "pvp_leave.cancel": "Отменить",
+    "pvp_leave.confirm": "Вы уверены, что хотите выйти из сервера во время PvP?",
+    "lock_slot.blocked": "Выброс предмета из слота %d заблокирован",
+    "current_events.filter.boss": "Босс",
+    "current_events.filter.typo": "Тыпо",
+    "current_events.filter.ship": "Корабль",
+    "current_events.filter.container": "Контейнер",
+    "current_events.filter.fever": "Лихорадка",
+    "current_events.filter.parcel": "Посылка",
+    "current_events.filter.cargo": "Груз",
+    "current_events.filter.flower_glade": "Цветочная поляна",
+    "current_events.filter.deadly_mine": "Смертельная шахта",
+    "current_events.filter.cube": "Кубик",
+    "current_events.filter.anarchy_120": "1.20 Ивенты",
+    "crosshair_editor.clear": "Очистить",
+    "crosshair_editor.default": "По умолчанию",
+    "item_replacer.no_matching": "Модели не найдены",
+    "configs.search": "Поиск конфигов...",
+    "configs.new": "Новый конфиг",
+    "configs.created_by": "  •  автор: ",
+    "clickgui.player_fallback": "Игрок",
+    "clickgui.singleplayer": "Одиночная игра",
+    "scoreboard.drag_hint": "Перетащите для перемещения",
+    "item_replacer.search": "Поиск моделей...",
+    "figura_models.title": "Модели Figura",
+    "figura_models.subtitle_available": "Перетащите папки с avatar.json или добавьте модели в universal/figura models",
+    "figura_models.subtitle_unavailable": "Figura не установлена. Установите мод или закройте панель.",
+    "figura_models.clear": "Снять",
+    "figura_models.rescan": "Обновить",
+    "figura_models.empty_directory": "Нет моделей в %s",
+    "figura_models.no_model_applied": "Модель не выбрана",
+    "figura_models.hover_model": "Наведите на модель",
+    "figura_models.applied": "Применена",
+    "figura_models.click_to_apply": "Нажмите для выбора",
+    "figura_models.no_preview": "Нет превью",
+    "figura_models.model_removed": "Модель снята",
+    "figura_models.unavailable": "Figura недоступна",
+    "figura_models.folder_rescanned": "Папка обновлена",
+    "figura_models.model_applied": "Модель %s применена",
+    "figura_models.imported_one": "Импортирована %d модель",
+    "figura_models.imported_many": "Импортировано моделей: %d",
+    "figura_models.skipped": ", пропущено: %d",
+    "figura_models.drop_folders": "Перетащите папки с avatar.json",
+    "figura_models.unsafe_target": "Небезопасный путь папки",
+    "figura_models.unsafe_file": "Небезопасный файл в папке",
+    "media.now_playing": "СЕЙЧАС ИГРАЕТ",
+    "media.no_track": "Нет активного трека",
+    "media.volume": "ГРОМКОСТЬ",
+    "media.volume_unavailable": "Недоступно",
+    "media.lyrics": "ТЕКСТ ПЕСНИ",
+    "media.searching": "Ищу текст песни...",
+    "media.no_lyrics": "Текст песни не найден",
+    "media.word_sync": "СИНХРОНИЗАЦИЯ ПО СЛОВАМ",
+    "media.line_sync": "СИНХРОНИЗАЦИЯ ПО СТРОКАМ",
+    "media.hint": "Нажми строку для перемотки · Колесо — прокрутка",
+    "media.instrumental": "Инструментальная композиция"
+  },
+  "hud.music.no_lyrics": "Текста песни нет",
+  "language.name.en_us": "Английский",
+  "language.name.ru_ru": "Русский",
+  "language.name.uk_ua": "Украинский"
+}

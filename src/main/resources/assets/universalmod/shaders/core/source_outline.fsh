@@ -1,0 +1,7 @@
+#version 150
+in vec2 FragCoord;uniform vec2 Size;uniform vec4 Radius;uniform float Thickness;uniform float Smoothness;uniform vec4 TopLeft;uniform vec4 TopRight;uniform vec4 BottomRight;uniform vec4 BottomLeft;out vec4 OutColor;
+float rdist(vec2 pos,vec2 size,vec4 radius){float cr;if(pos.x>0)cr=(pos.y>0)?radius.x:radius.w;else cr=(pos.y>0)?radius.y:radius.z;vec2 v=abs(pos)-size+cr;return min(max(v.x,v.y),0)+length(max(v,0))-cr;}
+float ralpha(vec2 size,vec2 coord,vec4 radius,float sm){vec2 center=size*.5;float f=max(sm,.001);float d=rdist(center-coord*size,max(center-1,vec2(0)),max(radius,vec4(0)));return 1-smoothstep(1-f,1,d);}
+float oa(vec2 coord,vec2 size,vec4 radius,float th,float sm){float outer=ralpha(size,coord,radius,sm);vec2 innerSize=size-vec2(th*2);if(innerSize.x<=0||innerSize.y<=0)return outer;vec2 local=coord*size;vec2 innerCoord=(local-vec2(th))/innerSize;float inner=ralpha(innerSize,innerCoord,max(radius-vec4(th),vec4(0)),sm);return clamp(outer-inner,0,1);}
+vec4 outlineColor(vec2 c,vec4 tl,vec4 tr,vec4 br,vec4 bl){vec4 top=mix(tl,tr,c.x);vec4 bottom=mix(bl,br,c.x);return mix(top,bottom,c.y);}
+void main(){vec2 coord=clamp(FragCoord,vec2(0),vec2(1));vec2 size=max(Size,vec2(1));float alpha=oa(coord,size,max(Radius,vec4(0)),max(Thickness,0),Smoothness);vec4 color=outlineColor(coord,TopLeft,TopRight,BottomRight,BottomLeft);color.a*=alpha;if(color.a<=.001)discard;OutColor=color;}

@@ -1,0 +1,32 @@
+{
+  "vertex": "universalmod:render_fire_glow_mask",
+  "fragment": "universalmod:render_fire_glow_mask",
+  "samplers": [
+    {
+      "name": "Sampler0"
+    },
+    {
+      "name": "Sampler1"
+    }
+  ],
+  "uniforms": [
+    {
+      "name": "UseCustomColor",
+      "type": "float",
+      "count": 1,
+      "values": [
+        0
+      ]
+    },
+    {
+      "name": "CustomColor",
+      "type": "float",
+      "count": 3,
+      "values": [
+        1,
+        1,
+        1
+      ]
+    }
+  ]
+}

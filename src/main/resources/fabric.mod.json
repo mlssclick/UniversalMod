@@ -1,0 +1,25 @@
+{
+  "schemaVersion": 1,
+  "id": "universalmod",
+  "version": "${version}",
+  "name": "UniversalMod",
+  "description": "xz",
+  "authors": [
+    "Suobaru"
+  ],
+  "environment": "client",
+  "entrypoints": {
+    "client": [
+      "universalmod.Engine"
+    ]
+  },
+  "depends": {
+    "fabricloader": ">=0.14.22",
+    "minecraft": "~1.20.1",
+    "java": ">=17",
+    "fabric-api": "*"
+  },
+  "mixins": [
+    "universalmod.mixins.json"
+  ]
+}

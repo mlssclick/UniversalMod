@@ -1,0 +1,86 @@
+#version 150
+
+float rdist(vec2 pos, vec2 halfSize, vec4 radius) {
+    
+    
+    float cornerRadius;
+    if (pos.x < 0.0) {
+        cornerRadius = pos.y < 0.0 ? radius.x : radius.w;
+    } else {
+        cornerRadius = pos.y < 0.0 ? radius.y : radius.z;
+    }
+    cornerRadius = max(cornerRadius, 0.0);
+    vec2 q = abs(pos) - halfSize + cornerRadius;
+    float qMax = max(q.x, q.y);
+    vec2 qClamped = max(q, vec2(0.0));
+    return min(qMax, 0.0) + length(qClamped) - cornerRadius;
+}
+
+
+
+in vec2 FragCoord;
+uniform vec2 Size;
+uniform vec4 Radius;
+uniform float Thickness;
+uniform float Smoothness;
+uniform vec4 TopLeft;
+uniform vec4 TopRight;
+uniform vec4 BottomRight;
+uniform vec4 BottomLeft;
+
+
+
+
+
+out vec4 OutColor;
+
+vec4 outlineColor(vec2 coord, vec4 topLeft, vec4 topRight, vec4 bottomRight, vec4 bottomLeft) {
+    vec4 top = mix(topLeft, topRight, coord.x);
+    vec4 bottom = mix(bottomLeft, bottomRight, coord.x);
+    return mix(top, bottom, coord.y);
+}
+
+float sdfAlpha(vec2 size, vec2 coord, vec4 radius, float smoothness) {
+    vec2 halfSize = max(size * 0.5, vec2(0.0001));
+    vec2 pos = coord * size - halfSize;
+    float d = rdist(pos, halfSize, max(radius, vec4(0.0)));
+    float aa = max(fwidth(d) * 0.75 * max(smoothness, 0.5), 0.0001);
+    return 1.0 - smoothstep(-aa, aa, d);
+}
+
+float outlineAlpha(vec2 coord, vec2 size, vec4 radius, float thickness, float smoothness) {
+    float outer = sdfAlpha(size, coord, radius, smoothness);
+    vec2 innerSize = size - vec2(thickness * 2.0);
+    if (innerSize.x <= 0.0 || innerSize.y <= 0.0) {
+        return outer;
+    }
+
+    vec2 local = coord * size;
+    vec2 innerCoord = (local - vec2(thickness)) / innerSize;
+    vec4 innerRadius = max(radius - vec4(thickness), vec4(0.0));
+    float inner = sdfAlpha(innerSize, innerCoord, innerRadius, smoothness);
+    return clamp(outer - inner, 0.0, 1.0);
+}
+
+void main() {
+    vec4 radius = Radius;
+    vec4 sizeThicknessSmooth = vec4(Size, Thickness, Smoothness);
+    vec4 topLeft = TopLeft;
+    vec4 topRight = TopRight;
+    vec4 bottomRight = BottomRight;
+    vec4 bottomLeft = BottomLeft;
+
+    vec2 coord = clamp(FragCoord, vec2(0.0), vec2(1.0));
+    vec2 size = max(sizeThicknessSmooth.xy, vec2(1.0));
+    float thickness = max(sizeThicknessSmooth.z, 0.0);
+    float alpha = outlineAlpha(coord, size, radius, thickness, sizeThicknessSmooth.w);
+
+    vec4 color = outlineColor(coord, topLeft, topRight, bottomRight, bottomLeft);
+    color.a *= alpha;
+
+    if (color.a <= 0.001) {
+        discard;
+    }
+
+    OutColor = color;
+}

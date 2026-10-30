@@ -1,0 +1,10 @@
+{
+  "vertex": "universalmod:render_fire_glow_composite",
+  "fragment": "universalmod:render_fire_glow_composite",
+  "samplers": [
+    {
+      "name": "Sampler0"
+    }
+  ],
+  "uniforms": []
+}

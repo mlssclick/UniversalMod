@@ -1,0 +1,20 @@
+{
+  "vertex": "universalmod:render_fire_glow_sobel",
+  "fragment": "universalmod:render_fire_glow_sobel",
+  "samplers": [
+    {
+      "name": "Sampler0"
+    }
+  ],
+  "uniforms": [
+    {
+      "name": "OneTexel",
+      "type": "float",
+      "count": 2,
+      "values": [
+        0.001,
+        0.001
+      ]
+    }
+  ]
+}

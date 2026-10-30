@@ -1,0 +1,698 @@
+{
+  "parent": "minecraft:item/handheld",
+  "textures": {
+    "layer0": "minecraft:item/stick"
+  },
+  "overrides": [
+    {
+      "predicate": {
+        "custom_model_data": 1500001
+      },
+      "model": "mre:item_replacer/sword/abominableblade"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 1500002
+      },
+      "model": "mre:item_replacer/sword/abominablegreatsaber"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 1500003
+      },
+      "model": "mre:item_replacer/sword/abominablescythe"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 1500004
+      },
+      "model": "mre:item_replacer/sword/aciddemon"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 1500005
+      },
+      "model": "mre:item_replacer/sword/amethyst_shuriken"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 1500006
+      },
+      "model": "mre:item_replacer/sword/ancient_royal_great_sword"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 1500007
+      },
+      "model": "mre:item_replacer/sword/aquantic_sacred_blade"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 1500008
+      },
+      "model": "mre:item_replacer/sword/aquantictrident"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 1500009
+      },
+      "model": "mre:item_replacer/sword/arcanethyst"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 1500010
+      },
+      "model": "mre:item_replacer/sword/ashura_blade"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 1500011
+      },
+      "model": "mre:item_replacer/sword/bloodedge"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 1500012
+      },
+      "model": "mre:item_replacer/sword/bloodydeath"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 1500013
+      },
+      "model": "mre:item_replacer/sword/bramblethorn"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 1500014
+      },
+      "model": "mre:item_replacer/sword/cariansword"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 1500015
+      },
+      "model": "mre:item_replacer/sword/chrono_blade"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 1500016
+      },
+      "model": "mre:item_replacer/sword/corruptedmythicblade"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 1500017
+      },
+      "model": "mre:item_replacer/sword/creationsplitter"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 1500018
+      },
+      "model": "mre:item_replacer/sword/crescentrose"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 1500019
+      },
+      "model": "mre:item_replacer/sword/cyberkatana"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 1500020
+      },
+      "model": "mre:item_replacer/sword/cybermantisblade"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 1500021
+      },
+      "model": "mre:item_replacer/sword/cybernetickatana"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 1500022
+      },
+      "model": "mre:item_replacer/sword/cyberneticknife"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 1500023
+      },
+      "model": "mre:item_replacer/sword/cyberneticsawblade"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 1500024
+      },
+      "model": "mre:item_replacer/sword/cybersword"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 1500025
+      },
+      "model": "mre:item_replacer/sword/dainsleif"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 1500026
+      },
+      "model": "mre:item_replacer/sword/dark_blade"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 1500027
+      },
+      "model": "mre:item_replacer/sword/dark_cleaver"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 1500028
+      },
+      "model": "mre:item_replacer/sword/death_knight_dagger"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 1500029
+      },
+      "model": "mre:item_replacer/sword/death_knight_sword"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 1500030
+      },
+      "model": "mre:item_replacer/sword/demigodsunholyblade"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 1500031
+      },
+      "model": "mre:item_replacer/sword/demigodsunholyhalberd"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 1500032
+      },
+      "model": "mre:item_replacer/sword/demonicblade"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 1500033
+      },
+      "model": "mre:item_replacer/sword/demoniccleaver"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 1500034
+      },
+      "model": "mre:item_replacer/sword/demonlordsgreataxe"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 1500035
+      },
+      "model": "mre:item_replacer/sword/demonlordsword"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 1500036
+      },
+      "model": "mre:item_replacer/sword/divine_justice"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 1500037
+      },
+      "model": "mre:item_replacer/sword/divine_reaper"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 1500038
+      },
+      "model": "mre:item_replacer/sword/divineaxerhitta"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 1500039
+      },
+      "model": "mre:item_replacer/sword/divinepunisher"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 1500040
+      },
+      "model": "mre:item_replacer/sword/dragonslayingblade"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 1500041
+      },
+      "model": "mre:item_replacer/sword/edgeoftheastralplane"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 1500042
+      },
+      "model": "mre:item_replacer/sword/emberblade"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 1500043
+      },
+      "model": "mre:item_replacer/sword/enigma"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 1500044
+      },
+      "model": "mre:item_replacer/sword/epicsword"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 1500045
+      },
+      "model": "mre:item_replacer/sword/estoc"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 1500046
+      },
+      "model": "mre:item_replacer/sword/excalibur"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 1500047
+      },
+      "model": "mre:item_replacer/sword/fallengodspear"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 1500048
+      },
+      "model": "mre:item_replacer/sword/fallengodsword"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 1500049
+      },
+      "model": "mre:item_replacer/sword/floral_longsword"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 1500050
+      },
+      "model": "mre:item_replacer/sword/floral_sabre"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 1500051
+      },
+      "model": "mre:item_replacer/sword/forest_guardian_glaive"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 1500052
+      },
+      "model": "mre:item_replacer/sword/frostaxe"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 1500053
+      },
+      "model": "mre:item_replacer/sword/frostblade"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 1500054
+      },
+      "model": "mre:item_replacer/sword/frostscythe"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 1500055
+      },
+      "model": "mre:item_replacer/sword/greenscythe"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 1500056
+      },
+      "model": "mre:item_replacer/sword/hearthflame"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 1500057
+      },
+      "model": "mre:item_replacer/sword/herosword"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 1500058
+      },
+      "model": "mre:item_replacer/sword/holymoonlightsword"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 1500059
+      },
+      "model": "mre:item_replacer/sword/hornetsneedle"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 1500060
+      },
+      "model": "mre:item_replacer/sword/icewhisper"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 1500061
+      },
+      "model": "mre:item_replacer/sword/jadehalberd"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 1500062
+      },
+      "model": "mre:item_replacer/sword/katana"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 1500063
+      },
+      "model": "mre:item_replacer/sword/legendarysword"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 1500064
+      },
+      "model": "mre:item_replacer/sword/longsword"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 1500065
+      },
+      "model": "mre:item_replacer/sword/magiscythe"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 1500066
+      },
+      "model": "mre:item_replacer/sword/masamune"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 1500067
+      },
+      "model": "mre:item_replacer/sword/mjolnir"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 1500068
+      },
+      "model": "mre:item_replacer/sword/moltenblade"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 1500069
+      },
+      "model": "mre:item_replacer/sword/moltensword"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 1500070
+      },
+      "model": "mre:item_replacer/sword/muramasa"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 1500071
+      },
+      "model": "mre:item_replacer/sword/mysticalspellblade"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 1500072
+      },
+      "model": "mre:item_replacer/sword/mythicblade"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 1500073
+      },
+      "model": "mre:item_replacer/sword/partisan"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 1500074
+      },
+      "model": "mre:item_replacer/sword/pharaohs_treasure"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 1500075
+      },
+      "model": "mre:item_replacer/sword/pheonixgrace"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 1500076
+      },
+      "model": "mre:item_replacer/sword/powerfusehammer"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 1500077
+      },
+      "model": "mre:item_replacer/sword/powerfusesword"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 1500078
+      },
+      "model": "mre:item_replacer/sword/requiem_of_hell"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 1500079
+      },
+      "model": "mre:item_replacer/sword/ribboncleaver"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 1500080
+      },
+      "model": "mre:item_replacer/sword/righteous_relic"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 1500081
+      },
+      "model": "mre:item_replacer/sword/riversofblood"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 1500082
+      },
+      "model": "mre:item_replacer/sword/royalchakram"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 1500083
+      },
+      "model": "mre:item_replacer/sword/royalrapier"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 1500084
+      },
+      "model": "mre:item_replacer/sword/sabre"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 1500085
+      },
+      "model": "mre:item_replacer/sword/scissorblade"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 1500086
+      },
+      "model": "mre:item_replacer/sword/sculkcleaver"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 1500087
+      },
+      "model": "mre:item_replacer/sword/sculkscythe"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 1500088
+      },
+      "model": "mre:item_replacer/sword/sculksword"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 1500089
+      },
+      "model": "mre:item_replacer/sword/sentinels_will"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 1500090
+      },
+      "model": "mre:item_replacer/sword/silverine_blade"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 1500091
+      },
+      "model": "mre:item_replacer/sword/soul_collector"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 1500092
+      },
+      "model": "mre:item_replacer/sword/soul_devourer"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 1500093
+      },
+      "model": "mre:item_replacer/sword/soulclaws"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 1500094
+      },
+      "model": "mre:item_replacer/sword/souledge"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 1500095
+      },
+      "model": "mre:item_replacer/sword/soulharvester"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 1500096
+      },
+      "model": "mre:item_replacer/sword/soulrender"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 1500097
+      },
+      "model": "mre:item_replacer/sword/soulstealer"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 1500098
+      },
+      "model": "mre:item_replacer/sword/steelsword"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 1500099
+      },
+      "model": "mre:item_replacer/sword/stop_sign"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 1500100
+      },
+      "model": "mre:item_replacer/sword/stormbringer"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 1500101
+      },
+      "model": "mre:item_replacer/sword/storms_edge"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 1500102
+      },
+      "model": "mre:item_replacer/sword/sunbreak"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 1500103
+      },
+      "model": "mre:item_replacer/sword/tengensblade"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 1500104
+      },
+      "model": "mre:item_replacer/sword/terrablade"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 1500105
+      },
+      "model": "mre:item_replacer/sword/thousanddemondaggers"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 1500106
+      },
+      "model": "mre:item_replacer/sword/thunderbrand"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 1500107
+      },
+      "model": "mre:item_replacer/sword/thunderbringer"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 1500108
+      },
+      "model": "mre:item_replacer/sword/vampiricneedle"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 1500109
+      },
+      "model": "mre:item_replacer/sword/wakizashi"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 1500110
+      },
+      "model": "mre:item_replacer/sword/watcher_claymore"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 1500111
+      },
+      "model": "mre:item_replacer/sword/watching_warglaive"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 1500112
+      },
+      "model": "mre:item_replacer/sword/waxweaver"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 1500113
+      },
+      "model": "mre:item_replacer/sword/whisperwind"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 1500114
+      },
+      "model": "mre:item_replacer/sword/wickpiercer"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 1500115
+      },
+      "model": "mre:item_replacer/sword/yoru"
+    }
+  ]
+}
