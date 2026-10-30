@@ -1,0 +1,11 @@
+UniversalMod — positional Thunder / rain, real-world samples supplied by user.
+
+User recordings (MP3 input):
+- fonoteca-raskat-groma.mp3: thunder_near (0–5.4 s)
+- raskaty_groma.mp3: thunder_mid (10.9–24.1 s), thunder_far (0.5–12.3 s)
+- 60_dark_and_stormy.mp3: rain_stone, rain_soft, rain_water, rain_ambient
+- дождь-по-крыше.mp3: rain_wood and rain_metal
+
+Transformations: mono downmix for OpenAL 3D positioning, high/low pass filtering, fade envelopes and Vorbis OGG at 44.1 kHz. Material profiles are audio treatments of the supplied rain recordings, not separate real recordings on each listed block material. Original source music/game content was not used.
+
+Rights to distribute the recordings should be verified by the project owner.

@@ -1,0 +1,11 @@
+{
+  "weather.thunder_near": {"sounds": [{"name": "universalmod:weather/thunder_near", "stream": true}]},
+  "weather.thunder_mid": {"sounds": [{"name": "universalmod:weather/thunder_mid", "stream": true}]},
+  "weather.thunder_far": {"sounds": [{"name": "universalmod:weather/thunder_far", "stream": true}]},
+  "weather.rain_stone": {"sounds": [{"name": "universalmod:weather/rain_stone"}]},
+  "weather.rain_wood": {"sounds": [{"name": "universalmod:weather/rain_wood"}]},
+  "weather.rain_metal": {"sounds": [{"name": "universalmod:weather/rain_metal"}]},
+  "weather.rain_soft": {"sounds": [{"name": "universalmod:weather/rain_soft"}]},
+  "weather.rain_water": {"sounds": [{"name": "universalmod:weather/rain_water"}]},
+  "weather.rain_ambient": {"sounds": [{"name": "universalmod:weather/rain_ambient", "stream": true}]}
+}

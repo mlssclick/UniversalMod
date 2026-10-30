@@ -1,0 +1,1239 @@
+{
+  "common": {
+    "settings": {
+      "Bind": {
+        "name": "Бінд"
+      },
+      "Language": {
+        "name": "Мова",
+        "options": {
+          "English": "Англійська",
+          "Russian": "Російська",
+          "Ukrainian": "Українська"
+        }
+      }
+    }
+  },
+  "categories": {
+    "Render": {
+      "name": "Відображення"
+    },
+    "Utils": {
+      "name": "Утиліти"
+    },
+    "Misc": {
+      "name": "Різне"
+    }
+  },
+  "modules": {
+    "Auto Sprint": {
+      "name": "Автоспринт",
+      "description": "Автоматично підтримує спринт під час руху."
+    },
+    "Effect Notifier": {
+      "name": "Сповіщення про ефекти",
+      "description": "Показує значки активних ефектів під прицілом."
+    },
+    "Cooldowns In Hotbar": {
+      "name": "Перезарядка на панелі швидкого доступу",
+      "description": "Показує час перезарядки предметів на панелі швидкого доступу."
+    },
+    "Sound Reducer": {
+      "name": "Приглушення звуків",
+      "description": "Вимикає або приглушує вибрані звуки гри.",
+      "settings": {
+        "Processing Method": {
+          "name": "Спосіб обробки"
+        },
+        "Sounds": {
+          "name": "Звуки",
+          "options": {
+            "Potion/Experience Throw": "Кидання зілля та пляшечок досвіду",
+            "Creeper Explosion": "Вибух кріпера",
+            "TNT Explosion": "Вибух TNT",
+            "Anvils": "Ковадла",
+            "Bow Shot": "Постріл з лука",
+            "Ghast Scream": "Крик ґаста",
+            "Skeleton Steps": "Кроки скелета",
+            "Nether Portal": "Пекельний портал",
+            "Event": "Події",
+            "Wither": "Візер",
+            "Phantoms": "Фантоми",
+            "Trident": "Тризуб",
+            "Totem": "Тотем",
+            "Warden": "Вартовий",
+            "Sculk Sensor": "Скалк-сенсор"
+          }
+        },
+        "Sound Volume": {
+          "name": "Гучність звуку"
+        }
+      }
+    },
+    "BetterChat": {
+      "name": "BetterChat",
+      "description": "Додаткові можливості та налаштування чату.",
+      "settings": {
+        "Timestamps": {
+          "name": "Позначки часу"
+        },
+        "Anti Spam": {
+          "name": "Антиспам"
+        },
+        "Show Seconds": {
+          "name": "Показувати секунди"
+        },
+        "24 Hour Clock": {
+          "name": "24-годинний формат"
+        },
+        "Smooth Chat": {
+          "name": "Плавний чат"
+        },
+        "Anti Clear": {
+          "name": "Захист від очищення чату"
+        }
+      }
+    },
+    "ClickGUI": {
+      "name": "ClickGUI",
+      "description": "Налаштовуване меню модулів із прив’язкою до клавіші."
+    },
+    "Custom Crosshair": {
+      "name": "Власний приціл",
+      "description": "Замінює стандартний приціл на створений вами.",
+      "settings": {
+        "Canvas Data": {
+          "name": "Дані полотна"
+        },
+        "Edit Crosshair": {
+          "name": "Редагувати приціл"
+        },
+        "Display in Third Person": {
+          "name": "Показувати від третьої особи"
+        },
+        "Vanilla Blending": {
+          "name": "Ванільне змішування"
+        },
+        "Color": {
+          "name": "Колір"
+        },
+        "Dynamic Color": {
+          "name": "Динамічний колір"
+        },
+        "Neutral": {
+          "name": "Нейтральні"
+        },
+        "Hostile": {
+          "name": "Ворожі"
+        },
+        "Players": {
+          "name": "Гравці"
+        }
+      }
+    },
+    "Fullbright": {
+      "name": "Повне освітлення",
+      "description": "Робить світ яскравішим за допомогою гамми або динамічного локального освітлення.",
+      "settings": {
+        "Mode": {
+          "name": "Режим",
+          "options": {
+            "Gamma": "Гамма",
+            "Dynamic": "Динамічний"
+          }
+        },
+        "Dynamic Radius": {
+          "name": "Радіус динамічного світла"
+        },
+        "Dynamic Light": {
+          "name": "Інтенсивність динамічного світла"
+        },
+        "Only In Cave": {
+          "name": "Тільки в печерах"
+        }
+      }
+    },
+    "Server Helper": {
+      "name": "Серверні інструменти",
+      "description": "Допоміжні функції для серверних подій і предметів.",
+      "settings": {
+        "Enabled": {
+          "name": "Увімкнено"
+        },
+        "Trapka": {
+          "name": "Трапка"
+        },
+        "Explosion Trap": {
+          "name": "Вибухова трапка"
+        },
+        "Stun": {
+          "name": "Оглушення"
+        },
+        "Remember Stun Zone": {
+          "name": "Запам’ятовувати зону оглушення"
+        },
+        "Fill": {
+          "name": "Заливка"
+        },
+        "Golden Spawners": {
+          "name": "Золоті спавнери"
+        },
+        "Golden Spawners Slot Fill": {
+          "name": "Підсвічування слота золотого спавнера"
+        },
+        "Compass Cooldowns": {
+          "name": "Перезарядка компаса"
+        },
+        "Compass Cooldowns Slot Fill": {
+          "name": "Підсвічування слота компаса"
+        },
+        "Macros": {
+          "name": "Макроси"
+        },
+        "Outline Color": {
+          "name": "Колір контуру"
+        },
+        "Inside Color": {
+          "name": "Колір заливки"
+        },
+        "Macro Bind Stun": {
+          "name": "Клавіша оглушення"
+        },
+        "Macro Bind Explosion Trap": {
+          "name": "Клавіша вибухової пастки"
+        },
+        "Macro Bind Trapka": {
+          "name": "Клавіша пастки"
+        },
+        "Macro Bind Snowball": {
+          "name": "Клавіша сніжки"
+        },
+        "Macro Bind Fire Charge": {
+          "name": "Клавіша вогняного заряду"
+        },
+        "Macro Bind Healing Potion": {
+          "name": "Клавіша зілля зцілення"
+        },
+        "Macro Bind Splash Healing Potion": {
+          "name": "Клавіша вибухового зілля зцілення"
+        },
+        "Macro Bind Backpack": {
+          "name": "Клавіша рюкзака"
+        },
+        "EndHelper": {
+          "name": "Помічник Краю"
+        },
+        "End Helper Enabled": {
+          "name": "Увімкнути помічник Краю"
+        },
+        "Trajectory": {
+          "name": "Траєкторія"
+        },
+        "Trajectory Y": {
+          "name": "Висота траєкторії"
+        },
+        "History": {
+          "name": "Історія"
+        },
+        "History Color": {
+          "name": "Колір історії"
+        },
+        "History Opacity": {
+          "name": "Непрозорість історії"
+        }
+      }
+    },
+    "Shaders Button": {
+      "name": "Шейдерні кнопки",
+      "description": "Замінює стандартні кнопки на кнопки з власними ефектами."
+    },
+    "Tape Mouse": {
+      "name": "Автоматичні натискання",
+      "description": "Автоматично атакує або використовує предмети з урахуванням перезарядки.",
+      "settings": {
+        "Button": {
+          "name": "Кнопка"
+        },
+        "Delay": {
+          "name": "Затримка"
+        }
+      }
+    },
+    "CoinPrice": {
+      "name": "CoinPrice",
+      "description": "Показує ціну предметів у монетах."
+    },
+    "Ambience": {
+      "name": "Атмосфера світу",
+      "description": "Налаштовує час доби, погоду, туман і небо.",
+      "settings": {
+        "Mode": {
+          "name": "Режим",
+          "options": {
+            "Day": "День",
+            "Midday": "Полудень",
+            "Night": "Ніч",
+            "Midnight": "Північ",
+            "Custom": "Власний"
+          }
+        },
+        "Time": {
+          "name": "Час"
+        },
+        "Weather": {
+          "name": "Погода",
+          "options": {
+            "Sunny": "Ясно",
+            "Rain": "Дощ",
+            "Thunder": "Гроза",
+            "Snow": "Сніг"
+          }
+        },
+        "Saturation": {
+          "name": "Насиченість"
+        },
+        "Custom Fog": {
+          "name": "Власний туман"
+        },
+        "Fog Color": {
+          "name": "Колір туману"
+        },
+        "Fog Distance": {
+          "name": "Дальність туману"
+        },
+        "Fog Density": {
+          "name": "Щільність туману"
+        },
+        "Sky Shader": {
+          "name": "Шейдер неба"
+        },
+        "Sky Mode": {
+          "name": "Режим неба",
+          "options": {
+            "Aurora": "Аврора",
+            "Северное сияние": "Північне сяйво",
+            "Nebula": "Туманність",
+            "Cosmic Veil": "Космічна завіса",
+            "Deep Space": "Далекий космос",
+            "Void": "Порожнеча",
+            "Plasma": "Плазма"
+          }
+        },
+        "Sky Speed": {
+          "name": "Швидкість анімації неба"
+        },
+        "Plasma Scale": {
+          "name": "Масштаб плазми"
+        },
+        "Plasma Speed": {
+          "name": "Швидкість плазми"
+        },
+        "Stars": {
+          "name": "Зірки"
+        },
+        "Shader Color": {
+          "name": "Колір шейдера"
+        },
+        "Wet": {
+          "name": "Мокрі поверхні"
+        },
+        "Wet Reflection Strength": {
+          "name": "Сила віддзеркалень"
+        },
+        "Wetness": {
+          "name": "Вологість"
+        },
+        "Wet Quality": {
+          "name": "Якість",
+          "options": {
+            "Low": "Низька",
+            "Medium": "Середня",
+            "High": "Висока"
+          }
+        }
+      }
+    },
+    "Animations": {
+      "name": "Анімації",
+      "description": "Налаштовує анімації елементів інтерфейсу.",
+      "settings": {
+        "Animate": {
+          "name": "Анімувати"
+        }
+      }
+    },
+    "Aspect Ratio": {
+      "name": "Співвідношення сторін",
+      "description": "Змінює співвідношення сторін екрана без втрати якості.",
+      "settings": {
+        "Ratio": {
+          "name": "Співвідношення"
+        }
+      }
+    },
+    "Block Overlay": {
+      "name": "Виділення блоків",
+      "description": "Налаштовує контур і заливку вибраного блока.",
+      "settings": {
+        "Outline": {
+          "name": "Контур"
+        },
+        "Line Width": {
+          "name": "Товщина лінії"
+        },
+        "Outline Color": {
+          "name": "Колір контуру"
+        },
+        "Fill": {
+          "name": "Заливка"
+        },
+        "Shader": {
+          "name": "Шейдер",
+          "options": {
+            "None": "Немає",
+            "Nebula": "Туманність",
+            "Cobweb": "Павутина",
+            "Plasma": "Плазма",
+            "Starfield": "Зоряне поле"
+          }
+        },
+        "Fill Color": {
+          "name": "Колір заливки"
+        },
+        "Fill Opacity": {
+          "name": "Прозорість заливки"
+        },
+        "Fill Chroma": {
+          "name": "Хроматична заливка"
+        },
+        "Fill Saturation": {
+          "name": "Насиченість заливки"
+        },
+        "Fill Brightness": {
+          "name": "Яскравість заливки"
+        },
+        "Fill Speed": {
+          "name": "Швидкість заливки"
+        },
+        "Nebula Color": {
+          "name": "Колір туманності"
+        },
+        "Nebula Speed": {
+          "name": "Швидкість туманності"
+        },
+        "Cobweb Color": {
+          "name": "Колір павутини"
+        },
+        "Cobweb Speed": {
+          "name": "Швидкість павутини"
+        },
+        "Plasma Color": {
+          "name": "Колір плазми"
+        },
+        "Plasma Speed": {
+          "name": "Швидкість плазми"
+        },
+        "Starfield Color": {
+          "name": "Колір зоряного поля"
+        },
+        "Starfield Speed": {
+          "name": "Швидкість зоряного поля"
+        }
+      }
+    },
+    "Custom HitBox": {
+      "name": "Власні хітбокси",
+      "description": "Додає гнучко налаштовувані рамки зіткнення для різних сутностей.",
+      "settings": {
+        "Eye Hitbox": {
+          "name": "Рамка рівня очей"
+        },
+        "Eye Color": {
+          "name": "Колір лінії очей"
+        },
+        "Viewing Line": {
+          "name": "Лінія погляду"
+        },
+        "Viewing Line Color": {
+          "name": "Колір лінії погляду"
+        },
+        "Players": {
+          "name": "Гравці"
+        },
+        "Players Color": {
+          "name": "Колір гравців"
+        },
+        "Animals": {
+          "name": "Тварини"
+        },
+        "Animals Color": {
+          "name": "Колір тварин"
+        },
+        "Monsters": {
+          "name": "Монстри"
+        },
+        "Monsters Color": {
+          "name": "Колір монстрів"
+        },
+        "Throwables": {
+          "name": "Снаряди"
+        },
+        "Throwables Color": {
+          "name": "Колір снарядів"
+        },
+        "Drop": {
+          "name": "Викинуті предмети"
+        },
+        "Drop Color": {
+          "name": "Колір викинутих предметів"
+        },
+        "Misc": {
+          "name": "Різне"
+        },
+        "Misc Color": {
+          "name": "Колір інших сутностей"
+        }
+      }
+    },
+    "Custom Donate": {
+      "name": "Власний донат-тег",
+      "description": "Додає власний декоративний донат-тег до імені в списку гравців і таблиці результатів.",
+      "settings": {
+        "Prefix": {
+          "name": "Префікс"
+        },
+        "Suffix": {
+          "name": "Суфікс"
+        },
+        "Время": {
+          "name": "Час"
+        },
+        "Дни": {
+          "name": "Дні"
+        }
+      }
+    },
+    "Fog Blur": {
+      "name": "Розмиття туману",
+      "description": "Додає ефект розмиття туману.",
+      "settings": {
+        "Strength": {
+          "name": "Сила"
+        },
+        "Distance": {
+          "name": "Дистанція"
+        },
+        "Quality": {
+          "name": "Якість",
+          "options": {
+            "Balanced": "Збалансовано",
+            "Quality": "Якість"
+          }
+        }
+      }
+    },
+    "Health Indicator": {
+      "name": "Індикатор здоров'я",
+      "description": "Показує рівень здоров’я над гравцями."
+    },
+    "Hit Color": {
+      "name": "Колір влучання",
+      "description": "Змінює колір підсвічування сутностей під час удару.",
+      "settings": {
+        "Hit Color": {
+          "name": "Колір удару"
+        },
+        "Armor": {
+          "name": "Броня"
+        },
+        "Alpha": {
+          "name": "Альфа"
+        }
+      }
+    },
+    "HUD": {
+      "name": "HUD",
+      "description": "Показує та налаштовує елементи ігрового інтерфейсу.",
+      "settings": {
+        "Elements": {
+          "name": "Елементи",
+          "options": {
+            "Music Player": "Музичний плеєр",
+            "Target HUD": "Панель цілі",
+            "Potions": "Зілля",
+            "Inventory": "Інвентар",
+            "Notifications": "Сповіщення",
+            "Armor": "Броня",
+            "Cooldowns": "Перезарядки",
+            "Keystrokes": "Натискання клавіш",
+            "TNT Timer": "Таймер TNT",
+            "Lyrics": "Текст пісні",
+            "Event": "Події",
+            "Bossbar": "Смуга боса"
+          }
+        },
+        "Armor Mode": {
+          "name": "Режим броні",
+          "options": {
+            "Panel": "Плашка",
+            "Vanilla": "Ванільний"
+          }
+        },
+        "Armor Side": {
+          "name": "Сторона броні",
+          "options": {
+            "Left": "Ліворуч",
+            "Right": "Праворуч"
+          }
+        },
+        "Keys": {
+          "name": "Клавіші"
+        },
+        "Mouse Buttons": {
+          "name": "Кнопки миші"
+        },
+        "Space": {
+          "name": "Пробіл"
+        },
+        "Keystrokes Opacity": {
+          "name": "Непрозорість індикатора клавіш"
+        },
+        "Keystrokes Color": {
+          "name": "Колір індикатора клавіш"
+        },
+        "Keystrokes Pressed Color": {
+          "name": "Колір натиснутих клавіш"
+        },
+        "Keystrokes Letter Color": {
+          "name": "Колір символів клавіш"
+        },
+        "Keystrokes Pressed Alpha": {
+          "name": "Прозорість натиснутих клавіш"
+        },
+        "Potions Color": {
+          "name": "Колір ефектів зілля"
+        },
+        "Cooldowns Color": {
+          "name": "Колір перезарядок"
+        },
+        "Use Custom Bossbar Settings": {
+          "name": "Власні налаштування смуги боса"
+        },
+        "Bossbar Color": {
+          "name": "Колір смуги боса"
+        },
+        "Bossbar Text Color": {
+          "name": "Колір напису смуги боса"
+        }
+      }
+    },
+    "Item Replacer": {
+      "name": "Заміна моделей предметів",
+      "description": "Замінює звичайний меч на вибрану модель.",
+      "settings": {
+        "Item Replacer Model": {
+          "name": "Модель заміни предмета"
+        },
+        "Model": {
+          "name": "Модель"
+        }
+      }
+    },
+    "Motion Blur": {
+      "name": "Розмиття руху",
+      "description": "Додає плавне розмиття під час руху.",
+      "settings": {
+        "Amount": {
+          "name": "Сила"
+        }
+      }
+    },
+    "Ping Nametags": {
+      "name": "Пінг у підписах гравців",
+      "description": "Показує затримку з’єднання біля імен гравців."
+    },
+    "2D Items": {
+      "name": "Двовимірні предмети",
+      "description": "Відображає предмети у двовимірному вигляді."
+    },
+    "Invisible Tags": {
+      "name": "Імена невидимих гравців",
+      "description": "Показує підписи імен невидимих гравців."
+    },
+    "Predictions": {
+      "name": "Прогноз траєкторії",
+      "description": "Показує очікуване місце приземлення снаряда.",
+      "settings": {
+        "Tracked Items": {
+          "name": "Відстежувані предмети"
+        },
+        "Rainbow Color": {
+          "name": "Райдужний колір"
+        },
+        "Entity Hit Highlight": {
+          "name": "Підсвічування влучання в сутність"
+        },
+        "Entity Hit Color": {
+          "name": "Колір підсвічування сутності"
+        },
+        "Potion Areas": {
+          "name": "Зони дії зілля"
+        },
+        "Splash Area Color": {
+          "name": "Колір зони вибухового зілля"
+        },
+        "Lingering Area Color": {
+          "name": "Колір зони осідального зілля"
+        }
+      }
+    },
+    "Fire Glow": {
+      "name": "Ефект вогню",
+      "description": "Відтворює вигляд вогню з Minecraft 1.16.5.",
+      "settings": {
+        "Custom Color": {
+          "name": "Власний колір"
+        },
+        "Color": {
+          "name": "Колір"
+        }
+      }
+    },
+    "Pesik": {
+      "name": "Песик",
+      "description": "Додає песика, який бігає поруч із гравцем.",
+      "settings": {
+        "Skin": {
+          "name": "Скін",
+          "options": {
+            "Jack Russell": "Джек-рассел-тер’єр",
+            "Dachshund": "Такса"
+          }
+        },
+        "Show Name Tag": {
+          "name": "Показувати ім’я"
+        },
+        "Attack Player": {
+          "name": "Атакувати гравця"
+        },
+        "Name Tag": {
+          "name": "Ім’я песика"
+        },
+        "Intelligence": {
+          "name": "Інтелект",
+          "options": {
+            "Default": "Звичайний",
+            "Fly": "Політ"
+          }
+        }
+      }
+    },
+    "Custom Scoreboard": {
+      "name": "Власна таблиця результатів",
+      "description": "Замінює стандартну таблицю результатів рухомою панеллю інтерфейсу.",
+      "settings": {
+        "Show Numbers": {
+          "name": "Показувати числа"
+        },
+        "Text Shadow": {
+          "name": "Тінь тексту"
+        },
+        "Scale": {
+          "name": "Масштаб"
+        },
+        "Background": {
+          "name": "Фон",
+          "options": {
+            "HUD": "HUD",
+            "Vanilla": "Ванільний",
+            "Custom": "Власний",
+            "None": "Немає"
+          }
+        },
+        "Background Color": {
+          "name": "Колір фону"
+        },
+        "Title Background Color": {
+          "name": "Колір фону заголовка"
+        },
+        "Corner Radius": {
+          "name": "Радіус заокруглення"
+        },
+        "Text Colors": {
+          "name": "Кольори тексту",
+          "options": {
+            "Vanilla": "Ванільний",
+            "Custom": "Власні"
+          }
+        },
+        "Title Color": {
+          "name": "Колір заголовка"
+        },
+        "Line Color": {
+          "name": "Колір лінії"
+        },
+        "Number Color": {
+          "name": "Колір чисел"
+        }
+      }
+    },
+    "Hands": {
+      "name": "Ефекти рук",
+      "description": "Додає візуальні ефекти на руки гравця.",
+      "settings": {
+        "Mode": {
+          "name": "Режим",
+          "options": {
+            "Shader": "Шейдер",
+            "Shader+Outline": "Шейдер і контур",
+            "Outline": "Контур",
+            "Smoke": "Дим"
+          }
+        },
+        "Shader": {
+          "name": "Шейдер",
+          "options": {
+            "Wave": "Хвиля",
+            "Nebula": "Туманність"
+          }
+        },
+        "Color": {
+          "name": "Колір"
+        },
+        "Wave Speed": {
+          "name": "Швидкість хвилі"
+        },
+        "Wave Scale": {
+          "name": "Масштаб хвилі"
+        },
+        "Fill": {
+          "name": "Заливка"
+        },
+        "Alpha": {
+          "name": "Альфа"
+        },
+        "Outline Color Mode": {
+          "name": "Режим кольору контуру",
+          "options": {
+            "Gradient": "Градієнт",
+            "Static": "Статичний"
+          }
+        },
+        "Outline Color": {
+          "name": "Колір контуру"
+        },
+        "Second Color": {
+          "name": "Другий колір"
+        },
+        "Radius": {
+          "name": "Радіус"
+        },
+        "Glow Strength": {
+          "name": "Інтенсивність світіння"
+        },
+        "Outline Width": {
+          "name": "Товщина контуру"
+        },
+        "Outline Opacity": {
+          "name": "Прозорість контуру"
+        },
+        "Strength": {
+          "name": "Сила"
+        },
+        "Rise Speed": {
+          "name": "Швидкість підйому"
+        },
+        "Wobble": {
+          "name": "Коливання"
+        },
+        "Length": {
+          "name": "Довжина"
+        },
+        "Brightness": {
+          "name": "Яскравість"
+        }
+      }
+    },
+    "Swing Animation": {
+      "name": "Анімація помаху",
+      "description": "Замінює стандартну анімацію помаху рукою.",
+      "settings": {
+        "Type": {
+          "name": "Тип",
+          "options": {
+            "Chop": "Рубання",
+            "Swipe": "Змах",
+            "Down": "Вниз",
+            "Smooth": "Плавна",
+            "Smooth 2": "Плавна II",
+            "Power": "Сила",
+            "Feast": "Бенкет",
+            "Twist": "Скручування",
+            "Stab": "Укол",
+            "Helix": "Спіраль",
+            "Default": "Стандартна"
+          }
+        },
+        "Strength": {
+          "name": "Сила"
+        },
+        "Duration": {
+          "name": "Тривалість"
+        },
+        "Only Swing": {
+          "name": "Лише під час помаху"
+        }
+      }
+    },
+    "View Model": {
+      "name": "Положення рук",
+      "description": "Змінює положення та розмір рук і предметів у руках.",
+      "settings": {
+        "Main Hand X": {
+          "name": "Основна рука: X"
+        },
+        "Main Hand Y": {
+          "name": "Основна рука: Y"
+        },
+        "Main Hand Z": {
+          "name": "Основна рука: Z"
+        },
+        "Item Size Main Hand": {
+          "name": "Розмір предмета в основній руці"
+        },
+        "Off Hand X": {
+          "name": "Друга рука: X"
+        },
+        "Off Hand Y": {
+          "name": "Друга рука: Y"
+        },
+        "Off Hand Z": {
+          "name": "Друга рука: Z"
+        },
+        "Item Size Off Hand": {
+          "name": "Розмір предмета в другій руці"
+        }
+      }
+    },
+    "Waypoints": {
+      "name": "Позначки місць",
+      "description": "Створює позначки місць і автоматично відзначає події, смерть і скарби.",
+      "settings": {
+        "Auto Event WayPoints": {
+          "name": "Автопозначки подій"
+        },
+        "Auto Treasure WayPoints": {
+          "name": "Автопозначки скарбів"
+        },
+        "Death WayPoint": {
+          "name": "Позначка місця смерті",
+          "description": "Створює та показує мітку в місці смерті."
+        }
+      }
+    },
+    "Zoom": {
+      "name": "Наближення",
+      "description": "Наближає зображення за натисканням клавіші.",
+      "settings": {
+        "Zoom Bind": {
+          "name": "Клавіша наближення"
+        },
+        "Default Zoom": {
+          "name": "Стандартний масштаб наближення"
+        }
+      }
+    },
+    "Totem Counter": {
+      "name": "Лічильник тотемів",
+      "description": "Показує, скільки тотемів використав гравець."
+    },
+    "Save Kt Leave": {
+      "name": "Захист від виходу в PvP",
+      "description": "Запобігає випадковому виходу із сервера під час PvP."
+    },
+    "No Render": {
+      "name": "Приховування елементів",
+      "description": "Вимикає відображення вибраних елементів гри.",
+      "settings": {
+        "Elements": {
+          "name": "Елементи",
+          "options": {
+            "Hurt Cam": "Тремтіння камери",
+            "Fire": "Вогонь",
+            "Particles": "Частинки",
+            "Block Particles": "Частинки блоків",
+            "Hit Particles": "Частинки від ударів",
+            "Block Overlay": "Виділення блоків",
+            "Plants": "Рослини",
+            "Weather": "Погода",
+            "Clouds": "Хмари",
+            "Glow": "Світіння",
+            "Fog": "Туман",
+            "Damage": "Ефект отримання шкоди",
+            "Scoreboard": "Таблиця результатів",
+            "Bossbar": "Смуга боса",
+            "Vanilla Effects": "Стандартні ефекти",
+            "Wither Hearts": "Серця висушення",
+            "Totem Animation": "Анімація тотема",
+            "Player Walk": "Анімація ходьби гравця",
+            "Player Swing": "Анімація помаху гравця"
+          }
+        }
+      }
+    },
+    "Free Look": {
+      "name": "Вільний огляд",
+      "description": "Дає змогу оглядатися від третьої особи за натисканням клавіші.",
+      "settings": {
+        "Free Look": {
+          "name": "Клавіша вільного огляду"
+        }
+      }
+    },
+    "Friends": {
+      "name": "Друзі",
+      "description": "Додає або прибирає гравців зі списку друзів натисканням середньої кнопки миші."
+    },
+    "Name Protect": {
+      "name": "Приховування імені",
+      "description": "Приховує ваше справжнє ім’я в інтерфейсі.",
+      "settings": {
+        "Name": {
+          "name": "Ім'я"
+        }
+      }
+    },
+    "ItemScroller": {
+      "name": "Швидке прокручування",
+      "description": "Прискорює переміщення предметів прокручуванням.",
+      "settings": {
+        "Scroll Delay": {
+          "name": "Затримка прокручування"
+        }
+      }
+    },
+    "LockSlot": {
+      "name": "Блокування слотів",
+      "description": "Забороняє викидати предмети з вибраних слотів.",
+      "settings": {
+        "Slots": {
+          "name": "Слоти"
+        }
+      }
+    },
+    "Atmosphere": {
+      "name": "Атмосфера",
+      "description": "Зима, сакура, гроза, осінь, сонячний день і кривавий місяць із погодою та авторським небом.",
+      "settings": {
+        "Mode": {
+          "name": "Режим",
+          "options": {
+            "Winter": "Зима",
+            "Sakura": "Сакура",
+            "Thunder": "Гроза",
+            "Autumn": "Осінь",
+            "Sunday": "Сонячний день",
+            "BloodMoon": "Кривавий місяць"
+          }
+        },
+        "Интенсивность снега": {
+          "name": "Інтенсивність снігу"
+        },
+        "Снежинки": {
+          "name": "Сніжинки"
+        },
+        "Скорость снега": {
+          "name": "Швидкість снігу"
+        },
+        "Количество снега": {
+          "name": "Кількість снігу"
+        },
+        "Длина тумана": {
+          "name": "Дальність туману"
+        },
+        "Зимние лучи": {
+          "name": "Зимові промені"
+        },
+        "Sakura Petals": {
+          "name": "Пелюстки сакури"
+        },
+        "Sakura Fall Speed": {
+          "name": "Швидкість падіння пелюсток"
+        },
+        "Sakura Wind": {
+          "name": "Вітер сакури"
+        },
+        "Sakura Haze": {
+          "name": "Рожевий серпанок"
+        },
+        "Sakura Bloom": {
+          "name": "Сяйво сакури"
+        },
+        "Sakura Sky Speed": {
+          "name": "Швидкість хмар"
+        },
+        "Autumn Leaves": {
+          "name": "Осіннє листя"
+        },
+        "Autumn Wind": {
+          "name": "Осінній вітер"
+        },
+        "Autumn Rain": {
+          "name": "Осінній дощ"
+        },
+        "Thunder Rain": {
+          "name": "Густота дощу"
+        },
+        "Thunder Volume": {
+          "name": "Гучність власного грому"
+        },
+        "Sunday God Rays": {
+          "name": "Сонячні промені"
+        },
+        "Sunday Ray Strength": {
+          "name": "Сила сонячних променів"
+        },
+        "BloodMoon Haze": {
+          "name": "Імла кривавого місяця"
+        }
+      }
+    },
+    "World Lyrics": {
+      "name": "Текст пісні у світі",
+      "description": "Показує поточний рядок пісні у світі.",
+      "settings": {
+        "Distance": {
+          "name": "Відстань"
+        },
+        "Vertical Offset": {
+          "name": "Вертикальне зміщення"
+        },
+        "Text Size": {
+          "name": "Розмір тексту"
+        },
+        "Word Spread": {
+          "name": "Відстань між словами"
+        },
+        "Transition": {
+          "name": "Перехід"
+        },
+        "Motion": {
+          "name": "Анімація руху"
+        },
+        "Respect Walls": {
+          "name": "Враховувати перешкоди"
+        }
+      }
+    }
+  },
+  "theme": {
+    "settings": {
+      "HUD Accent": {
+        "name": "Акцентний колір інтерфейсу"
+      },
+      "ClickGUI Titles": {
+        "name": "Заголовки меню"
+      },
+      "ClickGUI Accent": {
+        "name": "Акцентний колір меню"
+      },
+      "ClickGUI Modules": {
+        "name": "Картки модулів"
+      },
+      "Enabled Module": {
+        "name": "Увімкнений модуль"
+      },
+      "ClickGUI Panel": {
+        "name": "Тло меню"
+      },
+      "ClickGUI Size": {
+        "name": "Розмір меню"
+      },
+      "HUD Blur": {
+        "name": "Розмиття інтерфейсу"
+      },
+      "HUD Text": {
+        "name": "Текст інтерфейсу"
+      },
+      "Language": {
+        "name": "Мова"
+      }
+    }
+  },
+  "ui": {
+    "clickgui.title": "ClickGUI",
+    "clickgui.search": "Пошук",
+    "clickgui.no_modules": "Немає модулів",
+    "clickgui.select_module": "Виберіть модуль",
+    "clickgui.no_settings_hint": "У цьому модулі немає налаштувань. Спробуйте інший.",
+    "clickgui.theme.title": "Оформлення ClickGUI",
+    "hw_events.name": "Події HolyWorld",
+    "hw_events.settings_button": "Налаштування",
+    "hw_events.filter.all": "Усі",
+    "hw_events.filter.solo": "Соло",
+    "hw_events.filter.duo": "Дуо",
+    "hw_events.filter.trio": "Тріо",
+    "hw_events.filter.clan": "Клан",
+    "hw_events.anarchies": "Анархії",
+    "hw_events.range.solo": "Соло",
+    "hw_events.range.duo": "Дуо",
+    "hw_events.range.trio": "Тріо",
+    "hw_events.range.clan": "Клан",
+    "configs.name": "Конфігурації",
+    "current_events.title": "Поточні події",
+    "current_events.empty": "Наразі немає активних подій",
+    "event.title": "Подія",
+    "item_replacer.title": "Моделі предметів",
+    "item_replacer.subtitle": "Виберіть власну модель меча",
+    "crosshair_editor.title": "Редактор прицілу",
+    "crosshair_editor.help": "ЛКМ — малювати, ПКМ — стирати, СКМ — перемикати",
+    "selected.count": "Вибрано %d",
+    "chat.duplicate": "[%dx]",
+    "scoreboard.days.short": "%dд",
+    "friends.added": "Гравця %s додано до друзів",
+    "friends.removed": "Гравця %s видалено з друзів",
+    "clickgui.home": "Головна",
+    "clickgui.editor": "Редактор",
+    "clickgui.none": "Немає",
+    "clickgui.type_text": "Введіть текст",
+    "clickgui.action": "Дія",
+    "hw_events.display_count": "Показано подій: %d із %d",
+    "music.no_session": "Немає активної пісні",
+    "hud.notification.prefix": "Модуль ",
+    "hud.notification.enabled": " увімкнено.",
+    "hud.notification.disabled": " вимкнено.",
+    "hud_editor": {
+      "enabled": "Увімкнено",
+      "mode": "Режим",
+      "elements": "Елементи інтерфейсу",
+      "size": "Розмір"
+    },
+    "hud.edit_hint": "ПКМ — редагувати",
+    "pvp_leave.exit": "Вийти",
+    "pvp_leave.cancel": "Скасувати",
+    "pvp_leave.confirm": "Ви впевнені, що хочете вийти із сервера під час PvP?",
+    "lock_slot.blocked": "Викидання предмета зі слота %d заблоковано",
+    "current_events.filter.boss": "Бос",
+    "current_events.filter.typo": "Типо",
+    "current_events.filter.ship": "Корабель",
+    "current_events.filter.container": "Контейнер",
+    "current_events.filter.fever": "Золота лихоманка",
+    "current_events.filter.parcel": "Посилка",
+    "current_events.filter.cargo": "Цінний вантаж",
+    "current_events.filter.flower_glade": "Квіткова галявина",
+    "current_events.filter.deadly_mine": "Смертельна шахта",
+    "current_events.filter.cube": "Кубик",
+    "current_events.filter.anarchy_120": "Події 1.20",
+    "crosshair_editor.clear": "Очистити",
+    "crosshair_editor.default": "За замовчуванням",
+    "item_replacer.no_matching": "Моделей не знайдено",
+    "configs.search": "Пошук конфігурацій...",
+    "configs.new": "Нова конфігурація",
+    "configs.created_by": "  •  автор: ",
+    "clickgui.player_fallback": "Гравець",
+    "clickgui.singleplayer": "Одиночна гра",
+    "scoreboard.drag_hint": "Перетягніть, щоб перемістити",
+    "item_replacer.search": "Пошук моделей..."
+  },
+  "hud.music.no_lyrics": "Текст пісні відсутній"
+}
