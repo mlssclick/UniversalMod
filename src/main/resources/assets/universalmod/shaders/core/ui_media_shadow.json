@@ -1,0 +1,71 @@
+{
+  "vertex": "universalmod:core/ui_media_shadow",
+  "fragment": "universalmod:core/ui_media_shadow",
+  "samplers": [],
+  "uniforms": [
+    {
+      "name": "BoxBounds",
+      "type": "float",
+      "count": 4,
+      "values": [
+        0,
+        0,
+        1,
+        1
+      ]
+    },
+    {
+      "name": "Size",
+      "type": "float",
+      "count": 2,
+      "values": [
+        1,
+        1
+      ]
+    },
+    {
+      "name": "ShapeSize",
+      "type": "float",
+      "count": 2,
+      "values": [
+        1,
+        1
+      ]
+    },
+    {
+      "name": "Radius",
+      "type": "float",
+      "count": 4,
+      "values": [
+        1,
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "name": "Padding",
+      "type": "float",
+      "count": 1,
+      "values": [
+        1
+      ]
+    },
+    {
+      "name": "Sigma",
+      "type": "float",
+      "count": 1,
+      "values": [
+        1
+      ]
+    },
+    {
+      "name": "Spread",
+      "type": "float",
+      "count": 1,
+      "values": [
+        0
+      ]
+    }
+  ]
+}

@@ -1,0 +1,22 @@
+{
+  "vertex": "universalmod:core/ui_scoreboard_crop",
+  "fragment": "universalmod:core/ui_scoreboard_crop",
+  "samplers": [
+    {
+      "name": "Sampler0"
+    }
+  ],
+  "uniforms": [
+    {
+      "name": "SourceRect",
+      "type": "float",
+      "count": 4,
+      "values": [
+        0.0,
+        0.0,
+        1.0,
+        1.0
+      ]
+    }
+  ]
+}

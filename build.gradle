@@ -1,0 +1,109 @@
+plugins {
+    id 'fabric-loom' version '1.10.5'
+    id 'maven-publish'
+}
+
+version = project.mod_version
+group = project.maven_group
+
+base {
+    archivesName = project.archives_base_name
+}
+
+loom {
+    mixin {
+        defaultRefmapName = "UniversalMod-refmap.json"
+    }
+}
+
+repositories {
+    mavenCentral()
+    maven { url 'https://maven.fabricmc.net/' }
+}
+
+dependencies {
+    minecraft "com.mojang:minecraft:${project.minecraft_version}"
+    mappings "net.fabricmc:yarn:${project.yarn_mappings}:v2"
+    modImplementation "net.fabricmc:fabric-loader:${project.loader_version}"
+    modImplementation "net.fabricmc.fabric-api:fabric-api:${project.fabric_version}"
+
+    implementation 'com.google.code.gson:gson:2.10.1'
+    
+    implementation platform('ai.djl:bom:0.32.0')
+    implementation 'ai.djl:api'
+    runtimeOnly 'ai.djl.pytorch:pytorch-engine'
+    runtimeOnly 'ai.djl.pytorch:pytorch-jni'
+
+    def osName = System.getProperty('os.name').toLowerCase(java.util.Locale.ROOT)
+    def pytorchNativeClassifier
+    if (osName.contains('win')) {
+        pytorchNativeClassifier = 'win-x86_64'
+    } else if (osName.contains('linux')) {
+        pytorchNativeClassifier = 'linux-x86_64'
+    } else if (osName.contains('mac')) {
+        pytorchNativeClassifier = 'osx-aarch64'
+    } else {
+        throw new GradleException("Unsupported OS for DJL PyTorch native runtime: ${osName}")
+    }
+
+    runtimeOnly "ai.djl.pytorch:pytorch-native-cpu:2.5.1:${pytorchNativeClassifier}"
+}
+
+processResources {
+    inputs.property "version", project.version
+    filteringCharset "UTF-8"
+    filesMatching("fabric.mod.json") {
+        expand "version": project.version
+    }
+}
+
+sourceSets {
+    main {
+        java {
+             
+             
+            exclude "zov/**"
+        }
+    }
+}
+
+def targetJavaVersion = 21
+tasks.withType(JavaCompile).configureEach {
+    it.options.encoding = "UTF-8"
+    it.options.release = targetJavaVersion
+}
+
+java {
+    def javaVersion = JavaVersion.toVersion(targetJavaVersion)
+    sourceCompatibility = javaVersion
+    targetCompatibility = javaVersion
+    withSourcesJar()
+}
+
+jar {
+    from("LICENSE") {
+        rename { "${it}_${project.base.archivesName.get()}"}
+    }
+}
+
+def safeProjectDir = file("${System.properties['user.home']}/Downloads/async_fixed")
+
+tasks.register("syncSafeProject", Sync) {
+    from(projectDir)
+    into(safeProjectDir)
+    exclude(".gradle/**", "build/**", "run/**", "remappedSrc/**", "hs_err_pid*", "*.log")
+}
+
+tasks.register("runClientSafe", Exec) {
+    dependsOn("syncSafeProject")
+    workingDir(safeProjectDir)
+    commandLine("cmd", "/c", "gradlew.bat", "runClient", "--console=plain")
+}
+
+tasks.register("buildSafe", Exec) {
+    dependsOn("syncSafeProject")
+    workingDir(safeProjectDir)
+    commandLine("cmd", "/c", "gradlew.bat", "clean", "build", "--console=plain")
+}
+
+tasks.withType(Test).configureEach { enabled = false }

@@ -1,0 +1,167 @@
+package universalmod.command;
+
+import net.minecraft.util.Formatting;
+import org.lwjgl.glfw.GLFW;
+import universalmod.command.Command;
+import universalmod.command.TabCompleteHelper;
+import universalmod.module.Module;
+import universalmod.module.ModuleManager;
+import universalmod.setting.bind.KeyBind;
+import universalmod.setting.bind.KeyStorage;
+import universalmod.lifecycle.Manager;
+
+import java.util.Arrays;
+import java.util.Comparator;
+import java.util.List;
+import java.util.Locale;
+import java.util.stream.Stream;
+
+public final class BindCommand extends Command {
+    public BindCommand() {
+        super("bind", "Manage module binds", "b");
+    }
+
+    @Override
+    public void execute(String label, String[] args) {
+        ModuleManager modules = Manager.getModules();
+        if (modules == null) {
+            logDirect("Module manager is unavailable.", Formatting.RED);
+            return;
+        }
+
+        String action = args.length > 0 ? args[0].toLowerCase(Locale.ROOT) : "list";
+        switch (action) {
+            case "set", "add" -> setBind(modules, args);
+            case "remove", "del", "delete" -> clearBind(modules, args);
+            case "clear" -> clearAll(modules);
+            case "list" -> listBinds(modules);
+            default -> logDirect("Usage: bind set <module> <key> | bind remove <module> | bind list | bind clear");
+        }
+    }
+
+    @Override
+    public Stream<String> tabComplete(String label, String[] args) {
+        ModuleManager modules = Manager.getModules();
+        if (args.length == 1) {
+            return new TabCompleteHelper().append("set", "remove", "list", "clear").sortAlphabetically().filterPrefix(args[0]).stream();
+        }
+        if (modules == null) return Stream.empty();
+
+        if (args.length == 2 && (args[0].equalsIgnoreCase("set") || args[0].equalsIgnoreCase("remove"))) {
+            return new TabCompleteHelper()
+                    .append(modules.getModules().stream().map(Module::getName).toArray(String[]::new))
+                    .filterPrefix(args[1])
+                    .stream();
+        }
+        if (args.length == 3 && args[0].equalsIgnoreCase("set")) {
+            return new TabCompleteHelper()
+                    .append(KeyStorage.keyMap.keySet().toArray(String[]::new))
+                    .sortAlphabetically()
+                    .filterPrefix(args[2])
+                    .stream();
+        }
+        return Stream.empty();
+    }
+
+    @Override
+    public List<String> getLongDesc() {
+        return Arrays.asList(
+                "Manages module key binds.",
+                "Usage:",
+                "> bind set <module> <key>",
+                "> bind remove <module>",
+                "> bind list",
+                "> bind clear"
+        );
+    }
+
+    private void setBind(ModuleManager modules, String[] args) {
+        if (args.length < 3) {
+            logDirect("Usage: bind set <module> <key>", Formatting.RED);
+            return;
+        }
+
+        Module module = findModule(modules, args[1]);
+        if (module == null) {
+            logDirect("Module not found: " + args[1], Formatting.RED);
+            return;
+        }
+
+        String keyName = normalizeKeyName(args[2]);
+        int code = KeyStorage.getKey(keyName);
+        if (code < 0) {
+            logDirect("Unknown key: " + args[2], Formatting.RED);
+            return;
+        }
+
+        KeyBind bind = isMouseName(keyName) ? KeyBind.mouse(code) : KeyBind.keyboard(code);
+        if (!bind.isBound()) {
+            logDirect("Unknown key: " + args[2], Formatting.RED);
+            return;
+        }
+        module.setBind(bind);
+        saveConfig();
+        logDirect(module.getName() + " bound to " + module.getBind().getDisplayName(), Formatting.GREEN);
+    }
+
+    private void clearBind(ModuleManager modules, String[] args) {
+        if (args.length < 2) {
+            logDirect("Usage: bind remove <module>", Formatting.RED);
+            return;
+        }
+
+        Module module = findModule(modules, args[1]);
+        if (module == null) {
+            logDirect("Module not found: " + args[1], Formatting.RED);
+            return;
+        }
+
+        module.setBind(KeyBind.NONE);
+        saveConfig();
+        logDirect(module.getName() + " bind removed.", Formatting.GREEN);
+    }
+
+    private void clearAll(ModuleManager modules) {
+        for (Module module : modules.getModules()) module.setBind(KeyBind.NONE);
+        saveConfig();
+        logDirect("All binds removed.", Formatting.GREEN);
+    }
+
+    private void listBinds(ModuleManager modules) {
+        List<Module> bound = modules.getModules().stream()
+                .filter(module -> module.getBind() != null && module.getBind().isBound())
+                .sorted(Comparator.comparing(Module::getName, String.CASE_INSENSITIVE_ORDER))
+                .toList();
+
+        if (bound.isEmpty()) {
+            logDirect("No module binds.", Formatting.RED);
+            return;
+        }
+
+        for (Module module : bound) {
+            logDirect(module.getName() + " -> " + module.getBind().getDisplayName());
+        }
+    }
+
+    private Module findModule(ModuleManager modules, String name) {
+        return modules.getByName(name).orElse(null);
+    }
+
+    private static String normalizeKeyName(String name) {
+        String value = name == null ? "" : name.trim().toUpperCase(Locale.ROOT);
+        if (value.equals("LMB")) return "MOUSE1";
+        if (value.equals("RMB")) return "MOUSE2";
+        if (value.equals("MMB")) return "MOUSE3";
+        if (value.matches("M\\d+")) return "MOUSE" + value.substring(1);
+        return value.replace(" ", "");
+    }
+
+    private boolean isMouseName(String name) {
+        return name != null && name.toUpperCase(Locale.ROOT).startsWith("MOUSE");
+    }
+
+    private void saveConfig() {
+        Manager manager = Manager.getInstance();
+        if (manager != null && manager.getConfigManager() != null) manager.getConfigManager().saveAll();
+    }
+}

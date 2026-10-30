@@ -1,0 +1,1319 @@
+{
+  "common": {
+    "settings": {
+      "Bind": {
+        "name": "Bind"
+      },
+      "Language": {
+        "name": "Language",
+        "options": {
+          "English": "English",
+          "Russian": "Russian",
+          "Ukrainian": "Ukrainian"
+        }
+      }
+    }
+  },
+  "categories": {
+    "Render": {
+      "name": "Render"
+    },
+    "Utils": {
+      "name": "Utils"
+    },
+    "Misc": {
+      "name": "Misc"
+    }
+  },
+  "modules": {
+    "Auto Sprint": {
+      "name": "Auto Sprint",
+      "description": "Keeps sprint enabled"
+    },
+    "Effect Notifier": {
+      "name": "Effect Notifier",
+      "description": "Shows effect icons below the crosshair"
+    },
+    "Cooldowns In Hotbar": {
+      "name": "Cooldowns In Hotbar",
+      "description": "Shows item cooldowns in the hotbar"
+    },
+    "Sound Reducer": {
+      "name": "Sound Reducer",
+      "description": "Mutes or reduces selected sounds",
+      "settings": {
+        "Processing Method": {
+          "name": "Processing Method"
+        },
+        "Sounds": {
+          "name": "Sounds",
+          "options": {
+            "Potion/Experience Throw": "Potion or Experience Throw",
+            "Creeper Explosion": "Creeper Explosion",
+            "TNT Explosion": "TNT Explosion",
+            "Anvils": "Anvils",
+            "Bow Shot": "Bow Shot",
+            "Ghast Scream": "Ghast Scream",
+            "Skeleton Steps": "Skeleton Steps",
+            "Nether Portal": "Nether Portal",
+            "Event": "Event",
+            "Wither": "Wither",
+            "Phantoms": "Phantoms",
+            "Trident": "Trident",
+            "Totem": "Totem",
+            "Warden": "Warden",
+            "Sculk Sensor": "Sculk Sensor"
+          }
+        },
+        "Sound Volume": {
+          "name": "Sound Volume"
+        }
+      }
+    },
+    "BetterChat": {
+      "name": "BetterChat",
+      "description": "Chat utilities",
+      "settings": {
+        "Timestamps": {
+          "name": "Timestamps"
+        },
+        "Anti Spam": {
+          "name": "Anti Spam"
+        },
+        "Show Seconds": {
+          "name": "Show Seconds"
+        },
+        "24 Hour Clock": {
+          "name": "24 Hour Clock"
+        },
+        "Smooth Chat": {
+          "name": "Smooth Chat"
+        },
+        "Anti Clear": {
+          "name": "Anti Clear"
+        }
+      }
+    },
+    "ClickGUI": {
+      "name": "ClickGUI",
+      "description": "ClickGUI interface with key binding"
+    },
+    "Custom Crosshair": {
+      "name": "Custom Crosshair",
+      "description": "Replaces the vanilla crosshair with your custom one",
+      "settings": {
+        "Canvas Data": {
+          "name": "Canvas Data"
+        },
+        "Edit Crosshair": {
+          "name": "Edit Crosshair"
+        },
+        "Display in Third Person": {
+          "name": "Display in Third Person"
+        },
+        "Vanilla Blending": {
+          "name": "Vanilla Blending"
+        },
+        "Color": {
+          "name": "Color"
+        },
+        "Dynamic Color": {
+          "name": "Dynamic Color"
+        },
+        "Neutral": {
+          "name": "Neutral"
+        },
+        "Hostile": {
+          "name": "Hostile"
+        },
+        "Players": {
+          "name": "Players"
+        }
+      }
+    },
+    "Fullbright": {
+      "name": "Fullbright",
+      "description": "Brightens the world using gamma or dynamic local lighting.",
+      "settings": {
+        "Mode": {
+          "name": "Mode",
+          "options": {
+            "Gamma": "Gamma",
+            "Dynamic": "Dynamic"
+          }
+        },
+        "Dynamic Radius": {
+          "name": "Dynamic Radius"
+        },
+        "Dynamic Light": {
+          "name": "Dynamic Light"
+        },
+        "Only In Cave": {
+          "name": "Only In Cave"
+        }
+      }
+    },
+    "Server Helper": {
+      "name": "Server Helper",
+      "description": "Server utility collection",
+      "settings": {
+        "Enabled": {
+          "name": "Enabled"
+        },
+        "Trapka": {
+          "name": "Trapka"
+        },
+        "Explosion Trap": {
+          "name": "Explosion Trap"
+        },
+        "Stun": {
+          "name": "Stun"
+        },
+        "Remember Stun Zone": {
+          "name": "Remember Stun Zone"
+        },
+        "Fill": {
+          "name": "Fill"
+        },
+        "Golden Spawners": {
+          "name": "Golden Spawners"
+        },
+        "Golden Spawners Slot Fill": {
+          "name": "Golden Spawners Slot Fill"
+        },
+        "Compass Cooldowns": {
+          "name": "Compass Cooldowns"
+        },
+        "Compass Cooldowns Slot Fill": {
+          "name": "Compass Cooldowns Slot Fill"
+        },
+        "Macros": {
+          "name": "Macros"
+        },
+        "Outline Color": {
+          "name": "Outline Color"
+        },
+        "Inside Color": {
+          "name": "Inside Color"
+        },
+        "Macro Bind Stun": {
+          "name": "Macro Bind Stun"
+        },
+        "Macro Bind Explosion Trap": {
+          "name": "Macro Bind Explosion Trap"
+        },
+        "Macro Bind Trapka": {
+          "name": "Macro Bind Trapka"
+        },
+        "Macro Bind Snowball": {
+          "name": "Macro Bind Snowball"
+        },
+        "Macro Bind Fire Charge": {
+          "name": "Macro Bind Fire Charge"
+        },
+        "Macro Bind Healing Potion": {
+          "name": "Macro Bind Healing Potion"
+        },
+        "Macro Bind Splash Healing Potion": {
+          "name": "Macro Bind Splash Healing Potion"
+        },
+        "Macro Bind Backpack": {
+          "name": "Macro Bind Backpack"
+        },
+        "EndHelper": {
+          "name": "EndHelper"
+        },
+        "End Helper Enabled": {
+          "name": "End Helper Enabled"
+        },
+        "Trajectory": {
+          "name": "Trajectory"
+        },
+        "Trajectory Y": {
+          "name": "Trajectory Y"
+        },
+        "History": {
+          "name": "History"
+        },
+        "History Color": {
+          "name": "History Color"
+        },
+        "History Opacity": {
+          "name": "History Opacity"
+        }
+      }
+    },
+    "Shaders Button": {
+      "name": "Shaders Button",
+      "description": "Replaces vanilla buttons with custom ones"
+    },
+    "Tape Mouse": {
+      "name": "Tape Mouse",
+      "description": "Attacks or uses items on cooldown",
+      "settings": {
+        "Button": {
+          "name": "Button"
+        },
+        "Delay": {
+          "name": "Delay"
+        }
+      }
+    },
+    "CoinPrice": {
+      "name": "CoinPrice",
+      "description": "Shows item prices in coins"
+    },
+    "Ambience": {
+      "name": "Ambience",
+      "description": "World atmosphere settings",
+      "settings": {
+        "Mode": {
+          "name": "Mode",
+          "options": {
+            "Day": "Day",
+            "Midday": "Midday",
+            "Night": "Night",
+            "Midnight": "Midnight",
+            "Custom": "Custom"
+          }
+        },
+        "Time": {
+          "name": "Time"
+        },
+        "Weather": {
+          "name": "Weather",
+          "options": {
+            "Sunny": "Sunny",
+            "Rain": "Rain",
+            "Thunder": "Thunder",
+            "Snow": "Snow"
+          }
+        },
+        "Saturation": {
+          "name": "Saturation"
+        },
+        "Custom Fog": {
+          "name": "Custom Fog"
+        },
+        "Fog Color": {
+          "name": "Fog Color"
+        },
+        "Fog Distance": {
+          "name": "Fog Distance"
+        },
+        "Fog Density": {
+          "name": "Fog Density"
+        },
+        "Sky Shader": {
+          "name": "Sky Shader"
+        },
+        "Sky Mode": {
+          "name": "Sky Mode",
+          "options": {
+            "Aurora": "Aurora",
+            "Северное сияние": "Northern Lights",
+            "Nebula": "Nebula",
+            "Cosmic Veil": "Cosmic Veil",
+            "Deep Space": "Deep Space",
+            "Void": "Void",
+            "Plasma": "Plasma"
+          }
+        },
+        "Sky Speed": {
+          "name": "Sky Speed"
+        },
+        "Plasma Scale": {
+          "name": "Plasma Scale"
+        },
+        "Plasma Speed": {
+          "name": "Plasma Speed"
+        },
+        "Stars": {
+          "name": "Stars"
+        },
+        "Shader Color": {
+          "name": "Shader Color"
+        },
+        "Wet": {
+          "name": "Wet"
+        },
+        "Wet Reflection Strength": {
+          "name": "Reflection Strength"
+        },
+        "Wetness": {
+          "name": "Wetness"
+        },
+        "Wet Quality": {
+          "name": "Quality",
+          "options": {
+            "Low": "Low",
+            "Medium": "Medium",
+            "High": "High"
+          }
+        }
+      }
+    },
+    "Animations": {
+      "name": "Animations",
+      "description": "Animations for different elements",
+      "settings": {
+        "Animate": {
+          "name": "Animate"
+        }
+      }
+    },
+    "Aspect Ratio": {
+      "name": "Aspect Ratio",
+      "description": "Changes screen aspect ratio without reducing quality",
+      "settings": {
+        "Ratio": {
+          "name": "Ratio"
+        }
+      }
+    },
+    "Block Overlay": {
+      "name": "Block Overlay",
+      "description": "Adds a custom overlay to blocks",
+      "settings": {
+        "Outline": {
+          "name": "Outline"
+        },
+        "Line Width": {
+          "name": "Line Width"
+        },
+        "Outline Color": {
+          "name": "Outline Color"
+        },
+        "Fill": {
+          "name": "Fill"
+        },
+        "Shader": {
+          "name": "Shader",
+          "options": {
+            "None": "None",
+            "Nebula": "Nebula",
+            "Cobweb": "Cobweb",
+            "Plasma": "Plasma",
+            "Starfield": "Starfield"
+          }
+        },
+        "Fill Color": {
+          "name": "Fill Color"
+        },
+        "Fill Opacity": {
+          "name": "Fill Opacity"
+        },
+        "Fill Chroma": {
+          "name": "Fill Chroma"
+        },
+        "Fill Saturation": {
+          "name": "Fill Saturation"
+        },
+        "Fill Brightness": {
+          "name": "Fill Brightness"
+        },
+        "Fill Speed": {
+          "name": "Fill Speed"
+        },
+        "Nebula Color": {
+          "name": "Nebula Color"
+        },
+        "Nebula Speed": {
+          "name": "Nebula Speed"
+        },
+        "Cobweb Color": {
+          "name": "Cobweb Color"
+        },
+        "Cobweb Speed": {
+          "name": "Cobweb Speed"
+        },
+        "Plasma Color": {
+          "name": "Plasma Color"
+        },
+        "Plasma Speed": {
+          "name": "Plasma Speed"
+        },
+        "Starfield Color": {
+          "name": "Starfield Color"
+        },
+        "Starfield Speed": {
+          "name": "Starfield Speed"
+        }
+      }
+    },
+    "Custom HitBox": {
+      "name": "Custom HitBox",
+      "description": "Adds a fully configurable hitbox",
+      "settings": {
+        "Eye Hitbox": {
+          "name": "Eye Hitbox"
+        },
+        "Eye Color": {
+          "name": "Eye Color"
+        },
+        "Viewing Line": {
+          "name": "Viewing Line"
+        },
+        "Viewing Line Color": {
+          "name": "Viewing Line Color"
+        },
+        "Players": {
+          "name": "Players"
+        },
+        "Players Color": {
+          "name": "Players Color"
+        },
+        "Animals": {
+          "name": "Animals"
+        },
+        "Animals Color": {
+          "name": "Animals Color"
+        },
+        "Monsters": {
+          "name": "Monsters"
+        },
+        "Monsters Color": {
+          "name": "Monsters Color"
+        },
+        "Throwables": {
+          "name": "Throwables"
+        },
+        "Throwables Color": {
+          "name": "Throwables Color"
+        },
+        "Drop": {
+          "name": "Drop"
+        },
+        "Drop Color": {
+          "name": "Drop Color"
+        },
+        "Misc": {
+          "name": "Misc"
+        },
+        "Misc Color": {
+          "name": "Misc Color"
+        }
+      }
+    },
+    "Custom Donate": {
+      "name": "Custom Donate",
+      "description": "Adds fake donation text to name tab and scoreboard",
+      "settings": {
+        "Prefix": {
+          "name": "Prefix"
+        },
+        "Suffix": {
+          "name": "Suffix"
+        },
+        "Время": {
+          "name": "Time"
+        },
+        "Дни": {
+          "name": "Days"
+        }
+      }
+    },
+    "Fog Blur": {
+      "name": "Fog Blur",
+      "description": "Adds blur to fog",
+      "settings": {
+        "Strength": {
+          "name": "Strength"
+        },
+        "Distance": {
+          "name": "Distance"
+        },
+        "Quality": {
+          "name": "Quality",
+          "options": {
+            "Balanced": "Balanced",
+            "Quality": "Quality"
+          }
+        }
+      }
+    },
+    "Health Indicator": {
+      "name": "Health Indicator",
+      "description": "Shows health above players"
+    },
+    "Hit Color": {
+      "name": "Hit Color",
+      "description": "Changes hit color to a custom color",
+      "settings": {
+        "Hit Color": {
+          "name": "Hit Color"
+        },
+        "Armor": {
+          "name": "Armor"
+        },
+        "Alpha": {
+          "name": "Alpha"
+        }
+      }
+    },
+    "HUD": {
+      "name": "HUD",
+      "description": "Renders HUD elements",
+      "settings": {
+        "Elements": {
+          "name": "Elements",
+          "options": {
+            "Music Player": "Music Player",
+            "Target HUD": "Target HUD",
+            "Potions": "Potions",
+            "Inventory": "Inventory",
+            "Notifications": "Notifications",
+            "Armor": "Armor",
+            "Cooldowns": "Cooldowns",
+            "Keystrokes": "Keystrokes",
+            "TNT Timer": "TNT Timer",
+            "Lyrics": "Lyrics",
+            "Event": "Event",
+            "Bossbar": "Bossbar"
+          }
+        },
+        "Armor Mode": {
+          "name": "Armor Mode",
+          "options": {
+            "Panel": "Panel",
+            "Vanilla": "Vanilla"
+          }
+        },
+        "Armor Side": {
+          "name": "Armor Side",
+          "options": {
+            "Left": "Left",
+            "Right": "Right"
+          }
+        },
+        "Keys": {
+          "name": "Keys"
+        },
+        "Mouse Buttons": {
+          "name": "Mouse Buttons"
+        },
+        "Space": {
+          "name": "Space"
+        },
+        "Keystrokes Opacity": {
+          "name": "Keystrokes Opacity"
+        },
+        "Keystrokes Color": {
+          "name": "Keystrokes Color"
+        },
+        "Keystrokes Pressed Color": {
+          "name": "Keystrokes Pressed Color"
+        },
+        "Keystrokes Letter Color": {
+          "name": "Keystrokes Letter Color"
+        },
+        "Keystrokes Pressed Alpha": {
+          "name": "Keystrokes Pressed Alpha"
+        },
+        "Potions Color": {
+          "name": "Potions Color"
+        },
+        "Cooldowns Color": {
+          "name": "Cooldowns Color"
+        },
+        "Use Custom Bossbar Settings": {
+          "name": "Use Custom Bossbar Settings"
+        },
+        "Bossbar Color": {
+          "name": "Bossbar Color"
+        },
+        "Bossbar Text Color": {
+          "name": "Bossbar Text Color"
+        }
+      }
+    },
+    "Item Replacer": {
+      "name": "Item Replacer",
+      "description": "Replaces the regular sword with a custom model",
+      "settings": {
+        "Item Replacer Model": {
+          "name": "Item Replacer Model"
+        },
+        "Model": {
+          "name": "Model"
+        }
+      }
+    },
+    "Motion Blur": {
+      "name": "Motion Blur",
+      "description": "Adds smooth motion blur",
+      "settings": {
+        "Amount": {
+          "name": "Amount"
+        }
+      }
+    },
+    "Ping Nametags": {
+      "name": "Ping Nametags",
+      "description": "Shows ping in player nametags"
+    },
+    "2D Items": {
+      "name": "2D Items",
+      "description": "Renders items in 2D"
+    },
+    "Invisible Tags": {
+      "name": "Invisible Tags",
+      "description": "Enables nametags for invisible players"
+    },
+    "Predictions": {
+      "name": "Predictions",
+      "description": "Shows where a projectile will land",
+      "settings": {
+        "Tracked Items": {
+          "name": "Tracked Items"
+        },
+        "Rainbow Color": {
+          "name": "Rainbow Color"
+        },
+        "Entity Hit Highlight": {
+          "name": "Entity Hit Highlight"
+        },
+        "Entity Hit Color": {
+          "name": "Entity Hit Color"
+        },
+        "Potion Areas": {
+          "name": "Potion Areas"
+        },
+        "Splash Area Color": {
+          "name": "Splash Area Color"
+        },
+        "Lingering Area Color": {
+          "name": "Lingering Area Color"
+        }
+      }
+    },
+    "Fire Glow": {
+      "name": "Fire Glow",
+      "description": "Renders fire like in 1.16.5",
+      "settings": {
+        "Custom Color": {
+          "name": "Custom Color"
+        },
+        "Color": {
+          "name": "Color"
+        }
+      }
+    },
+    "Pesik": {
+      "name": "Pesik",
+      "description": "Adds a dog that runs beside you",
+      "settings": {
+        "Skin": {
+          "name": "Skin",
+          "options": {
+            "Jack Russell": "Jack Russell",
+            "Dachshund": "Dachshund"
+          }
+        },
+        "Show Name Tag": {
+          "name": "Show Name Tag"
+        },
+        "Attack Player": {
+          "name": "Attack Player"
+        },
+        "Name Tag": {
+          "name": "Name Tag"
+        },
+        "Intelligence": {
+          "name": "Intelligence",
+          "options": {
+            "Default": "Default",
+            "Fly": "Fly"
+          }
+        }
+      }
+    },
+    "Custom Scoreboard": {
+      "name": "Custom Scoreboard",
+      "description": "Replaces the vanilla scoreboard with a movable configurable HUD element",
+      "settings": {
+        "Show Numbers": {
+          "name": "Show Numbers"
+        },
+        "Text Shadow": {
+          "name": "Text Shadow"
+        },
+        "Scale": {
+          "name": "Scale"
+        },
+        "Background": {
+          "name": "Background",
+          "options": {
+            "HUD": "HUD",
+            "Vanilla": "Vanilla",
+            "Custom": "Custom",
+            "None": "None"
+          }
+        },
+        "Background Color": {
+          "name": "Background Color"
+        },
+        "Title Background Color": {
+          "name": "Title Background Color"
+        },
+        "Corner Radius": {
+          "name": "Corner Radius"
+        },
+        "Text Colors": {
+          "name": "Text Colors",
+          "options": {
+            "Vanilla": "Vanilla",
+            "Custom": "Custom"
+          }
+        },
+        "Title Color": {
+          "name": "Title Color"
+        },
+        "Line Color": {
+          "name": "Line Color"
+        },
+        "Number Color": {
+          "name": "Number Color"
+        }
+      }
+    },
+    "Hands": {
+      "name": "Hands",
+      "description": "Adds beautiful effects to hands",
+      "settings": {
+        "Mode": {
+          "name": "Mode",
+          "options": {
+            "Shader": "Shader",
+            "Shader+Outline": "Shader and Outline",
+            "Outline": "Outline",
+            "Smoke": "Smoke"
+          }
+        },
+        "Shader": {
+          "name": "Shader",
+          "options": {
+            "Wave": "Wave",
+            "Nebula": "Nebula"
+          }
+        },
+        "Color": {
+          "name": "Color"
+        },
+        "Wave Speed": {
+          "name": "Wave Speed"
+        },
+        "Wave Scale": {
+          "name": "Wave Scale"
+        },
+        "Fill": {
+          "name": "Fill"
+        },
+        "Alpha": {
+          "name": "Alpha"
+        },
+        "Outline Color Mode": {
+          "name": "Outline Color Mode",
+          "options": {
+            "Gradient": "Gradient",
+            "Static": "Static"
+          }
+        },
+        "Outline Color": {
+          "name": "Outline Color"
+        },
+        "Second Color": {
+          "name": "Second Color"
+        },
+        "Radius": {
+          "name": "Radius"
+        },
+        "Glow Strength": {
+          "name": "Glow Strength"
+        },
+        "Outline Width": {
+          "name": "Outline Width"
+        },
+        "Outline Opacity": {
+          "name": "Outline Opacity"
+        },
+        "Strength": {
+          "name": "Strength"
+        },
+        "Rise Speed": {
+          "name": "Rise Speed"
+        },
+        "Wobble": {
+          "name": "Wobble"
+        },
+        "Length": {
+          "name": "Length"
+        },
+        "Brightness": {
+          "name": "Brightness"
+        }
+      }
+    },
+    "Swing Animation": {
+      "name": "Swing Animation",
+      "description": "Custom attack animation",
+      "settings": {
+        "Type": {
+          "name": "Type",
+          "options": {
+            "Chop": "Chop",
+            "Swipe": "Swipe",
+            "Down": "Down",
+            "Smooth": "Smooth",
+            "Smooth 2": "Smooth 2",
+            "Power": "Power",
+            "Feast": "Feast",
+            "Twist": "Twist",
+            "Stab": "Stab",
+            "Helix": "Helix",
+            "Default": "Default"
+          }
+        },
+        "Strength": {
+          "name": "Strength"
+        },
+        "Duration": {
+          "name": "Duration"
+        },
+        "Only Swing": {
+          "name": "Only Swing"
+        }
+      }
+    },
+    "View Model": {
+      "name": "View Model",
+      "description": "Changes hand position using presets",
+      "settings": {
+        "Main Hand X": {
+          "name": "Main Hand X"
+        },
+        "Main Hand Y": {
+          "name": "Main Hand Y"
+        },
+        "Main Hand Z": {
+          "name": "Main Hand Z"
+        },
+        "Item Size Main Hand": {
+          "name": "Item Size Main Hand"
+        },
+        "Off Hand X": {
+          "name": "Off Hand X"
+        },
+        "Off Hand Y": {
+          "name": "Off Hand Y"
+        },
+        "Off Hand Z": {
+          "name": "Off Hand Z"
+        },
+        "Item Size Off Hand": {
+          "name": "Item Size Off Hand"
+        }
+      }
+    },
+    "Waypoints": {
+      "name": "Waypoints",
+      "description": "Waypoints and automatic markers for events death and treasures",
+      "settings": {
+        "Auto Event WayPoints": {
+          "name": "Auto Event WayPoints"
+        },
+        "Auto Treasure WayPoints": {
+          "name": "Auto Treasure WayPoints"
+        },
+        "Death WayPoint": {
+          "name": "Death WayPoint",
+          "description": "Creates and shows a waypoint at the place where you died."
+        }
+      }
+    },
+    "Zoom": {
+      "name": "Zoom",
+      "description": "Zooms the camera with a key bind",
+      "settings": {
+        "Zoom Bind": {
+          "name": "Zoom Bind"
+        },
+        "Default Zoom": {
+          "name": "Default Zoom"
+        }
+      }
+    },
+    "Totem Counter": {
+      "name": "Totem Counter",
+      "description": "Shows how many totems a player has used"
+    },
+    "Save Kt Leave": {
+      "name": "Save Kt Leave",
+      "description": "Prevents leaving during PvP"
+    },
+    "No Render": {
+      "name": "No Render",
+      "description": "Disables rendering of selected elements",
+      "settings": {
+        "Elements": {
+          "name": "Elements",
+          "options": {
+            "Hurt Cam": "Hurt Cam",
+            "Fire": "Fire",
+            "Particles": "Particles",
+            "Block Particles": "Block Particles",
+            "Hit Particles": "Hit Particles",
+            "Block Overlay": "Block Overlay",
+            "Plants": "Plants",
+            "Weather": "Weather",
+            "Clouds": "Clouds",
+            "Glow": "Glow",
+            "Fog": "Fog",
+            "Damage": "Damage",
+            "Scoreboard": "Scoreboard",
+            "Bossbar": "Bossbar",
+            "Vanilla Effects": "Vanilla Effects",
+            "Wither Hearts": "Wither Hearts",
+            "Totem Animation": "Totem Animation",
+            "Player Walk": "Player Walk",
+            "Player Swing": "Player Swing"
+          }
+        }
+      }
+    },
+    "Free Look": {
+      "name": "Free Look",
+      "description": "Enables free view in third person with a key bind",
+      "settings": {
+        "Free Look": {
+          "name": "Free Look"
+        }
+      }
+    },
+    "Friends": {
+      "name": "Friends",
+      "description": "Adds or removes friends by middle clicking a player"
+    },
+    "Name Protect": {
+      "name": "Name Protect",
+      "description": "Hides your name",
+      "settings": {
+        "Name": {
+          "name": "Name"
+        }
+      }
+    },
+    "ItemScroller": {
+      "name": "ItemScroller",
+      "description": "Fast item scrolling",
+      "settings": {
+        "Scroll Delay": {
+          "name": "Scroll Delay"
+        }
+      }
+    },
+    "LockSlot": {
+      "name": "LockSlot",
+      "description": "Prevents items in the selected slots from being dropped",
+      "settings": {
+        "Slots": {
+          "name": "Slots"
+        }
+      }
+    },
+    "Atmosphere": {
+      "name": "Atmosphere",
+      "description": "Winter, Sakura, Thunder, Autumn, Sunday and BloodMoon: detailed seasonal weather and sky.",
+      "settings": {
+        "Mode": {
+          "name": "Mode",
+          "options": {
+            "Wet": "Wet",
+            "Winter": "Winter",
+            "Dust": "Dust",
+            "Ash": "Ash",
+            "Halloween": "Halloween",
+            "Sakura": "Sakura",
+            "Thunder": "Thunder",
+            "Autumn": "Autumn",
+            "Sunday": "Sunday",
+            "BloodMoon": "BloodMoon"
+          }
+        },
+        "Wet Reflection Strength": {
+          "name": "Reflection Strength"
+        },
+        "Wetness": {
+          "name": "Wetness"
+        },
+        "Wet Quality": {
+          "name": "Quality",
+          "options": {
+            "Low": "Low",
+            "Medium": "Medium",
+            "High": "High"
+          }
+        },
+        "Интенсивность снега": {
+          "name": "Snow Intensity"
+        },
+        "Снежинки": {
+          "name": "Snowflakes"
+        },
+        "Скорость снега": {
+          "name": "Snow Speed"
+        },
+        "Количество снега": {
+          "name": "Snow Amount"
+        },
+        "Длина тумана": {
+          "name": "Fog Distance"
+        },
+        "Density": {
+          "name": "Density"
+        },
+        "God Rays": {
+          "name": "God Rays"
+        },
+        "Scatter Height": {
+          "name": "Scatter Height"
+        },
+        "Wind Speed": {
+          "name": "Wind Speed"
+        },
+        "Particles": {
+          "name": "Particles"
+        },
+        "Vignette": {
+          "name": "Vignette"
+        },
+        "Grade": {
+          "name": "Grade"
+        },
+        "Haze": {
+          "name": "Haze"
+        },
+        "Sun Color": {
+          "name": "Sun Color"
+        },
+        "Зимние лучи": {
+          "name": "Winter Sun Rays"
+        },
+        "Sakura Petals": {
+          "name": "Sakura Petals"
+        },
+        "Sakura Fall Speed": {
+          "name": "Petal Fall Speed"
+        },
+        "Sakura Wind": {
+          "name": "Sakura Wind"
+        },
+        "Sakura Haze": {
+          "name": "Sakura Haze"
+        },
+        "Sakura Bloom": {
+          "name": "Sakura Bloom"
+        },
+        "Sakura Sky Speed": {
+          "name": "Cloud Speed"
+        },
+        "Autumn Leaves": {
+          "name": "Autumn Leaves"
+        },
+        "Autumn Wind": {
+          "name": "Autumn Wind"
+        },
+        "Autumn Rain": {
+          "name": "Autumn Rain"
+        },
+        "Thunder Rain": {
+          "name": "Thunder Rain"
+        },
+        "Thunder Volume": {
+          "name": "Thunder Volume"
+        },
+        "Sunday God Rays": {
+          "name": "Sunday God Rays"
+        },
+        "Sunday Ray Strength": {
+          "name": "Sunday Ray Strength"
+        },
+        "BloodMoon Haze": {
+          "name": "BloodMoon Haze"
+        }
+      }
+    },
+    "World Lyrics": {
+      "name": "World Lyrics",
+      "description": "Shows the current lyrics in the world",
+      "settings": {
+        "Distance": {
+          "name": "Distance"
+        },
+        "Vertical Offset": {
+          "name": "Vertical Offset"
+        },
+        "Text Size": {
+          "name": "Text Size"
+        },
+        "Word Spread": {
+          "name": "Word Spread"
+        },
+        "Transition": {
+          "name": "Transition"
+        },
+        "Motion": {
+          "name": "Motion"
+        },
+        "Respect Walls": {
+          "name": "Respect Walls"
+        }
+      }
+    }
+  },
+  "theme": {
+    "settings": {
+      "HUD Accent": {
+        "name": "HUD Accent"
+      },
+      "ClickGUI Titles": {
+        "name": "ClickGUI Titles"
+      },
+      "ClickGUI Accent": {
+        "name": "ClickGUI Accent"
+      },
+      "ClickGUI Modules": {
+        "name": "ClickGUI Modules"
+      },
+      "Enabled Module": {
+        "name": "Enabled Module"
+      },
+      "ClickGUI Panel": {
+        "name": "ClickGUI Panel"
+      },
+      "ClickGUI Size": {
+        "name": "ClickGUI Size"
+      },
+      "HUD Blur": {
+        "name": "HUD Blur"
+      },
+      "HUD Text": {
+        "name": "HUD Text"
+      },
+      "Language": {
+        "name": "Language"
+      }
+    }
+  },
+  "ui": {
+    "clickgui.title": "ClickGUI",
+    "clickgui.search": "Search",
+    "clickgui.no_modules": "No modules",
+    "clickgui.select_module": "Select a module",
+    "clickgui.no_settings_hint": "This module has no settings try another one",
+    "clickgui.theme.title": "ClickGUI Theme",
+    "hw_events.name": "Holyworld Events",
+    "hw_events.settings_button": "Settings",
+    "hw_events.filter.all": "All",
+    "hw_events.filter.solo": "Solo",
+    "hw_events.filter.duo": "Duo",
+    "hw_events.filter.trio": "Trio",
+    "hw_events.filter.clan": "Clan",
+    "hw_events.anarchies": "Anarchies",
+    "hw_events.range.solo": "Solo",
+    "hw_events.range.duo": "Duo",
+    "hw_events.range.trio": "Trio",
+    "hw_events.range.clan": "Clan",
+    "configs.name": "Configs",
+    "current_events.title": "Current Events",
+    "current_events.empty": "No active events",
+    "event.title": "Event",
+    "item_replacer.title": "Item Replacer Models",
+    "item_replacer.subtitle": "Select a custom sword model",
+    "crosshair_editor.title": "Custom Crosshair",
+    "crosshair_editor.help": "LMB draw RMB erase MMB toggle",
+    "selected.count": "Selected %d",
+    "chat.duplicate": "[%dx]",
+    "scoreboard.days.short": "%dd",
+    "friends.added": "Added %s to friends",
+    "friends.removed": "Removed %s from friends",
+    "clickgui.home": "Home",
+    "clickgui.editor": "Editor",
+    "clickgui.none": "None",
+    "clickgui.type_text": "Type text",
+    "clickgui.action": "Action",
+    "hw_events.display_count": "Showing events %d of %d",
+    "music.no_session": "No active track",
+    "hud.notification.prefix": "Module ",
+    "hud.notification.enabled": " enabled.",
+    "hud.notification.disabled": " disabled.",
+    "hud_editor": {
+      "enabled": "Enabled",
+      "mode": "Mode",
+      "elements": "HUD elements",
+      "size": "Size"
+    },
+    "hud.edit_hint": "RMB to edit",
+    "pvp_leave.exit": "Leave",
+    "pvp_leave.cancel": "Cancel",
+    "pvp_leave.confirm": "Are you sure you want to leave the server during PvP?",
+    "lock_slot.blocked": "Dropping an item from slot %d is blocked",
+    "current_events.filter.boss": "Boss",
+    "current_events.filter.typo": "Typo",
+    "current_events.filter.ship": "Ship",
+    "current_events.filter.container": "Container",
+    "current_events.filter.fever": "Gold Fever",
+    "current_events.filter.parcel": "Parcel",
+    "current_events.filter.cargo": "Valuable Cargo",
+    "current_events.filter.flower_glade": "Flower Glade",
+    "current_events.filter.deadly_mine": "Deadly Mine",
+    "current_events.filter.cube": "Cube",
+    "current_events.filter.anarchy_120": "1.20 Events",
+    "crosshair_editor.clear": "Clear",
+    "crosshair_editor.default": "Default",
+    "item_replacer.no_matching": "No matching models",
+    "configs.search": "Search configs...",
+    "configs.new": "New config",
+    "configs.created_by": "  •  by ",
+    "clickgui.player_fallback": "Player",
+    "clickgui.singleplayer": "Singleplayer",
+    "scoreboard.drag_hint": "Drag to move",
+    "item_replacer.search": "Search models...",
+    "figura_models.title": "Figura Models",
+    "figura_models.subtitle_available": "Drag folders with avatar.json here, or install models in universal/figura models",
+    "figura_models.subtitle_unavailable": "Figura is not installed. Install it or close this panel.",
+    "figura_models.clear": "Clear",
+    "figura_models.rescan": "Rescan",
+    "figura_models.empty_directory": "No avatars in %s",
+    "figura_models.no_model_applied": "No model applied",
+    "figura_models.hover_model": "Hover a model",
+    "figura_models.applied": "Applied",
+    "figura_models.click_to_apply": "Click to apply",
+    "figura_models.no_preview": "No preview",
+    "figura_models.model_removed": "Model removed",
+    "figura_models.unavailable": "Figura unavailable",
+    "figura_models.folder_rescanned": "Folder rescanned",
+    "figura_models.model_applied": "%s applied",
+    "figura_models.imported_one": "Imported %d model",
+    "figura_models.imported_many": "Imported %d models",
+    "figura_models.skipped": ", skipped %d",
+    "figura_models.drop_folders": "Drop folders with avatar.json",
+    "figura_models.unsafe_target": "Unsafe target folder",
+    "figura_models.unsafe_file": "Unsafe file in dropped folder",
+    "media.now_playing": "NOW PLAYING",
+    "media.no_track": "No active track",
+    "media.volume": "VOLUME",
+    "media.volume_unavailable": "Unavailable",
+    "media.lyrics": "LYRICS",
+    "media.searching": "Searching lyrics...",
+    "media.no_lyrics": "Lyrics unavailable",
+    "media.word_sync": "WORD SYNC",
+    "media.line_sync": "LINE SYNC",
+    "media.hint": "Click a lyric line to seek · Wheel to scroll",
+    "media.instrumental": "Instrumental"
+  },
+  "hud.music.no_lyrics": "Not have a lyrics",
+  "language.name.en_us": "English",
+  "language.name.ru_ru": "Russian",
+  "language.name.uk_ua": "Ukrainian"
+}

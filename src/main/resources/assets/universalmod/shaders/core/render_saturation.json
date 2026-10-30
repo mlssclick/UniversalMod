@@ -1,0 +1,19 @@
+{
+  "vertex": "universalmod:core/render_saturation",
+  "fragment": "universalmod:core/render_saturation",
+  "samplers": [
+    {
+      "name": "Sampler0"
+    }
+  ],
+  "uniforms": [
+    {
+      "name": "saturation",
+      "type": "float",
+      "count": 1,
+      "values": [
+        1
+      ]
+    }
+  ]
+}

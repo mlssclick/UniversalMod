@@ -1,0 +1,10 @@
+Custom ClickGUI profile media
+=============================
+At runtime place files here:
+.minecraft/universalmod/clickgui/avatar.png
+.minecraft/universalmod/clickgui/cover.png
+
+The files hot-reload while the ClickGUI is open.
+You can also drag an image onto the profile card:
+- drop over the avatar area: installs avatar.png
+- drop over the rest of the profile card: installs cover.png
